@@ -1,0 +1,5 @@
+# [Reference Architectures](../index.md)
+## [Connect an on-premises network to Azure](index.md)
+### [ExpressRoute](expressroute.md)
+### [VPN](vpn.md)
+### [Improving availability](expressroute-vpn-failover.md)

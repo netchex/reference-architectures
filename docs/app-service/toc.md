@@ -1,0 +1,5 @@
+# [Reference Architectures](../index.md)
+## [App Service](index.md)
+### [Basic web application](basic-web-app.md)
+### [Improving scalability](scalable-web-app.md)
+### [Improving availability](multi-region-web-app.md)

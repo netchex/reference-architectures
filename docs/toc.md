@@ -1,0 +1,7 @@
+# [Reference Architectures](index.md)
+## [Linux VM workloads](virtual-machines-linux/index.md)
+## [Windows VM workloads](virtual-machines-windows/index.md)
+## [Connect an on-premises network to Azure](hybrid-networking/index.md)
+## [Network DMZ](dmz/index.md)
+## [Identity management](identity/index/md)
+## [Azure App Service](app-service/index.md)
