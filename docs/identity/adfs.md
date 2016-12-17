@@ -22,7 +22,7 @@ ms.author: telmos
 
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
-This article describes how to implement a secure hybrid network that extends your on-premises network to Azure and uses [Active Directory Federation Services (AD FS)][active-directory-federation-services] to perform federated authentication and authorization for components running in Azure. This architecture extends the implementation described in [Extending Active Directory to Azure][implementing-active-directory].
+This article describes how to implement a secure hybrid network that extends your on-premises network to Azure and uses [Active Directory Federation Services (AD FS)][active-directory-federation-services] to perform federated authentication and authorization for components running in Azure. This architecture extends the implementation described in [Extending Active Directory to Azure][extending-ad-to-azure].
 
 > [!NOTE]
 > Azure has two different deployment models: [Resource Manager][resource-manager-overview] and classic. This reference architecture uses Resource Manager, which Microsoft recommends for new deployments.
@@ -91,7 +91,7 @@ The diagram shows the following scenarios:
 For more information about the parts of the architecture that are not related to AD FS, see the following:
 - [Implementing a secure hybrid network architecture in Azure][implementing-a-secure-hybrid-network-architecture]
 - [Implementing a secure hybrid network architecture with Internet access in Azure][implementing-a-secure-hybrid-network-architecture-with-internet-access]
-- [Implementing a secure hybrid network architecture with Active Directory identities in Azure][implementing-active-directory].
+- [Implementing a secure hybrid network architecture with Active Directory identities in Azure][extending-ad-to-azure].
 
 
 ## Recommendations
@@ -294,13 +294,17 @@ A solution is available on [Github][github] to deploy this reference architectur
 * Learn about [Azure Active Directory B2C][aadb2c].
 
 <!-- links -->
-[azure-cli]: /azure/azure-resource-manager/xplat-cli-azure-resource-manager.md
-[vm-recommendations]: ./windows-single-vm.md
-[naming-conventions]: ./guidance-naming-conventions.md
-[implementing-active-directory]: ./adds-extend-domain.md
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
-[implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
-[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
+[extending-ad-to-azure]: adds-extend-domain.md
+
+[vm-recommendations]: ../virtual-machines-windows/single-vm.md
+[implementing-a-secure-hybrid-network-architecture]: ../dmz/secure-vnet-hybrid.md
+[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ../dmz/secure-vnet-dmz.md
+[hybrid-azure-on-prem-vpn]: ../hybrid-networking/vpn.md
+
+[naming-conventions]: /azure/guidance/guidance-naming-conventions
+
+[azure-cli]: /azure/azure-resource-manager/xplat-cli-azure-resource-manager
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [DRS]: https://technet.microsoft.com/library/dn280945.aspx
 [where-to-place-an-fs-proxy]: https://technet.microsoft.com/library/dd807048.aspx
 [ADDRS]: https://technet.microsoft.com/library/dn486831.aspx
@@ -325,9 +329,7 @@ A solution is available on [Github][github] to deploy this reference architectur
 [azure-powershell-download]: https://azure.microsoft.com/documentation/articles/powershell-install-configure/
 [aad]: https://azure.microsoft.com/documentation/services/active-directory/
 [aadb2c]: https://azure.microsoft.com/documentation/services/active-directory-b2c/
-[adfs-intro]: /azure/active-directory/active-directory-aadconnect-azure-adfs.md
-[hybrid-azure-on-prem-vpn]: ./vpn.md
-[extending-ad-to-azure]: ./adds-extend-domain.md
+[adfs-intro]: /azure/active-directory/active-directory-aadconnect-azure-adfs
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
 [github]: https://raw.githubusercontent.com/mspnp/reference-architectures/master/guidance-identity-adfs/Deploy-ReferenceArchitecture.ps1
 [adfs_certificates]: https://technet.microsoft.com/library/dn781428(v=ws.11).aspx

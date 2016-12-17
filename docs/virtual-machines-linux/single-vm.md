@@ -22,8 +22,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running a Linux VM on Azure](linux-single-vm.md)
-> * [Running a Windows VM on Azure](windows-single-vm.md)
+> * [Running a Linux VM on Azure](single-vm.md)
+> * [Running a Windows VM on Azure](../virtual-machines-windows/single-vm.md)
 > 
 > 
 
@@ -179,7 +179,7 @@ Consider [Azure Disk Encryption][disk-encryption] if you need to encrypt the OS 
 A deployment for this reference architecture is available on [GitHub][github-folder]. It includes a VNet, NSG, and a single VM. To deploy the architecture, follow these steps: 
 
 1. Right click the button below and select either "Open link in new tab" or "Open link in new window."
-   [![Deploy to Azure](../articles/guidance/media/blueprints/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Freference-architectures%2Fmaster%2Fguidance-compute-single-vm%2Fazuredeploy.json)
+   [![Deploy to Azure](/azure/guidance/media/blueprints/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Freference-architectures%2Fmaster%2Fguidance-compute-single-vm%2Fazuredeploy.json)
 2. Once the link has opened in the Azure portal, you must enter values for some of the settings: 
    
    * The **Resource group** name is already defined in the parameter file, so select **Create New** and enter `ra-single-vm-rg` in the text box.
@@ -195,53 +195,52 @@ A deployment for this reference architecture is available on [GitHub][github-fol
 In order for the [SLA for Virtual Machines][vm-sla] to apply, you must deploy two or more instances in an Availability Set. For more information, see [Running multiple VMs on Azure][multi-vm].
 
 <!-- links -->
+[multi-vm]: ../virtual-machines-windows/multi-vm.md?toc=%2fazure%2farchitecture%24virtual-machines-linux%2f/toc.json
+[naming conventions]: /azure/guidance/guidance-naming-conventions
 
 [audit-logs]: https://azure.microsoft.com/blog/analyze-azure-audit-logs-in-powerbi-more/
-[availability-set]: ../articles/virtual-machines/virtual-machines-windows-create-availability-set.md
-[azure-cli]: ../articles/virtual-machines-command-line-tools.md
-[azure-linux]: ../articles/virtual-machines/virtual-machines-linux-azure-overview.md
-[azure-storage]: ../articles/storage/storage-introduction.md
-[blob-snapshot]: ../articles/storage/storage-blob-snapshots.md
-[blob-storage]: ../articles/storage/storage-introduction.md
+[availability-set]: /azure/virtual-machines/virtual-machines-windows-create-availability-set
+[azure-cli]: /azure/virtual-machines-command-line-tools
+[azure-linux]: /azure/virtual-machines/virtual-machines-linux-azure-overview
+[azure-storage]: /azure/storage/storage-introduction
+[blob-snapshot]: /azure/storage/storage-blob-snapshots
+[blob-storage]: /azure/storage/storage-introduction
 [boot-diagnostics]: https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/
 [cname-record]: https://en.wikipedia.org/wiki/CNAME_record
-[data-disk]: ../articles/virtual-machines/virtual-machines-linux-about-disks-vhds.md
-[disk-encryption]: ../articles/security/azure-security-disk-encryption.md
-[enable-monitoring]: ../articles/monitoring-and-diagnostics/insights-how-to-use-diagnostics.md
-[fqdn]: ../articles/virtual-machines/virtual-machines-linux-portal-create-fqdn.md
+[data-disk]: /azure/virtual-machines/virtual-machines-linux-about-disks-vhds
+[disk-encryption]: /azure/security/azure-security-disk-encryption
+[enable-monitoring]: /azure/monitoring-and-diagnostics/insights-how-to-use-diagnostics
+[fqdn]: /azure/virtual-machines/virtual-machines-linux-portal-create-fqdn
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-single-vm/
 [iostat]: https://en.wikipedia.org/wiki/Iostat
-[manage-vm-availability]: ../articles/virtual-machines/virtual-machines-linux-manage-availability.md
-[multi-vm]: ../articles/guidance/guidance-compute-multi-vm.md
-[naming conventions]: ../articles/guidance/guidance-naming-conventions.md
-[nsg]: ../articles/virtual-network/virtual-networks-nsg.md
-[nsg-default-rules]: ../articles/virtual-network/virtual-networks-nsg.md#default-rules
+[manage-vm-availability]: /azure/virtual-machines/virtual-machines-linux-manage-availability
+[nsg]: /azure/virtual-network/virtual-networks-nsg
+[nsg-default-rules]: /azure/virtual-network/virtual-networks-nsg#default-rules
 [OSPatching]: https://github.com/Azure/azure-linux-extensions/tree/master/OSPatching
-[planned-maintenance]: ../articles/virtual-machines/virtual-machines-linux-planned-maintenance.md
-[premium-storage]: ../articles/storage/storage-premium-storage.md
-[rbac]: ../articles/active-directory/role-based-access-control-what-is.md
-[rbac-roles]: ../articles/active-directory/role-based-access-built-in-roles.md
-[rbac-devtest]: ../articles/active-directory/role-based-access-built-in-roles.md#devtest-labs-user
-[rbac-network]: ../articles/active-directory/role-based-access-built-in-roles.md#network-contributor
+[planned-maintenance]: /azure/virtual-machines/virtual-machines-linux-planned-maintenance
+[premium-storage]: /azure/storage/storage-premium-storage
+[rbac]: /azure/active-directory/role-based-access-control-what-is
+[rbac-roles]: /azure/active-directory/role-based-access-built-in-roles
+[rbac-devtest]: /azure/active-directory/role-based-access-built-in-roles#devtest-labs-user
+[rbac-network]: /azure/active-directory/role-based-access-built-in-roles#network-contributor
 [reboot-logs]: https://azure.microsoft.com/blog/viewing-vm-reboot-logs/
 [Resize-VHD]: https://technet.microsoft.com/library/hh848535.aspx
 [Resize virtual machines]: https://azure.microsoft.com/blog/resize-virtual-machines/
-[resource-lock]: ../articles/resource-group-lock-resources.md
-[resource-manager-overview]: ../articles/azure-resource-manager/resource-group-overview.md
-[select-vm-image]: ../articles/virtual-machines/virtual-machines-linux-cli-ps-findimage.md
+[resource-lock]: /azure/resource-group-lock-resources
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
+[select-vm-image]: /azure/virtual-machines/virtual-machines-linux-cli-ps-findimage
 [services-by-region]: https://azure.microsoft.com/regions/#services
-[ssh-linux]: ../articles/virtual-machines/virtual-machines-linux-mac-create-ssh-keys.md
-[static-ip]: ../articles/virtual-network/virtual-networks-reserved-public-ip.md
-[storage-account-limits]: ../articles/azure-subscription-service-limits.md#storage-limits
+[ssh-linux]: /azure/virtual-machines/virtual-machines-linux-mac-create-ssh-keys
+[static-ip]: /azure/virtual-network/virtual-networks-reserved-public-ip
+[storage-account-limits]: /azure/azure-subscription-service-limits#storage-limits
 [storage-price]: https://azure.microsoft.com/pricing/details/storage/
-[virtual-machine-sizes]: ../articles/virtual-machines/virtual-machines-linux-sizes.md
+[virtual-machine-sizes]: /azure/virtual-machines/virtual-machines-linux-sizes
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vm-disk-limits]: ../articles/azure-subscription-service-limits.md#virtual-machine-disk-limits
-[vm-resize]: ../articles/virtual-machines/virtual-machines-linux-change-vm-size.md
-[vm-size-tables]: ../articles/virtual-machines/virtual-machines-windows-sizes.md#size-tables
+[vm-disk-limits]: /azure/azure-subscription-service-limits#virtual-machine-disk-limits
+[vm-resize]: /azure/virtual-machines/virtual-machines-linux-change-vm-size
+[vm-size-tables]: /azure/virtual-machines/virtual-machines-windows-sizes#size-tables
 [vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_0/
 [readme]: https://github.com/mspnp/reference-architectures/blob/master/guidance-compute-single-vm
-[components]: #Solution-components
 [blocks]: https://github.com/mspnp/template-building-blocks
-[0]: ./media/guidance-blueprints/compute-single-vm.png "Single Linux VM architecture in Azure"
+[0]: ../media/compute/compute-single-vm.png "Single Linux VM architecture in Azure"
 

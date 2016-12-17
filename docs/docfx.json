@@ -8,7 +8,7 @@
         ],
         "exclude": [         
           "**/obj/**",
-          "**/includes/**",
+          "**/_includes/**",
           "**/_themes/**"
         ],
         "src": ".",
@@ -21,7 +21,7 @@
         ],
         "exclude": [        
           "**/obj/**",
-          "**/includes/**",
+          "**/_includes/**",
           "**/_themes/**"
         ],
         "src": "bread",

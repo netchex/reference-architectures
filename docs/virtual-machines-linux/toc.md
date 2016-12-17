@@ -1,4 +1,4 @@
-# [Reference Architectures](../index.md)
+# [Reference Architectures](/azure/architecture/)
 ## [Linux VM workloads](index.md)
 ### [Single Linux VM](single-vm.md)
 ### [Load balanced VMs](../virtual-machines-windows/multi-vm.md?toc=%2fazure%2farchitecture%24virtual-machines-linux%2f/toc.json)

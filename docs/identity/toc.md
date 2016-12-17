@@ -1,4 +1,4 @@
-# [Reference Architectures](../index.md)
+# [Reference Architectures](/azure/architecture/)
 ## [Identity management](index.md)
 ### [Integrate on-premises AD with Azure AD](azure-ad.md)
 ### [Extend AD DS to Azure](adds-extend-domain.md)

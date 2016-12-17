@@ -19,6 +19,7 @@ ms.author: telmosampaio
 
 ---
 # Extending on-premises identity to Azure
+
 In most enterprise systems based on Windows, you will use Active Directory (AD) to provide identity management services to your applications. When you extend your network infrastructure to the cloud you have some important decisions to make concerning how to manage identity. Should you expand your on-premises domains to incorporate VMs in the cloud? Should you create new domains in the cloud? Should you implement your own forest in the cloud or use [Azure Active Directory][aad] (Azure AD)?
 
 The patterns & practices group has created a set of reference architectures to address these scenarios. Each reference architecture demonstrates one approach to managing on-premises identities in Azure, and includes:
@@ -127,8 +128,8 @@ The resources below explain how to implement the architectures described in this
 [1]: ../media/identity/figure2.png "Secure hybrid network architecture with Active Directory"
 [2]: ../media/identity/figure3.png "Secure hybrid network architecture with separate AD domains and forests"
 [3]: ../media/identity/figure4.png "Secure hybrid network architecture with AD FS"
-[implementing-aad]: ./aad.md
-[extending-adds]: ./adds-extend-domain.md
-[adds-forest-in-azure]: ./adds-resource-forest.md
-[adfs-in-azure]: ./adfs.md
+[implementing-aad]: azure-ad.md
+[extending-adds]: adds-extend-domain.md
+[adds-forest-in-azure]: adds-forest.md
+[adfs-in-azure]: adfs.md
 [aad]: https://azure.microsoft.com/services/active-directory/

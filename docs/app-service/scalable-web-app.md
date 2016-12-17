@@ -148,7 +148,7 @@ For higher availability, deploy the application in more than one region and use 
 [polyglot-storage]: https://github.com/mspnp/azure-guidance/blob/master/Polyglot-Solutions
 [queue-storage]: /azure/storage/storage-dotnet-how-to-use-queues
 [queues-compared]: /azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
-[resource-group]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
+[resource-group]: /azure/azure-resource-manager/resource-group-overview#resource-groups
 [sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
 [sql-elastic]: /azure/sql-database/sql-database-elastic-scale-introduction
 [sql-encryption]: https://msdn.microsoft.com/library/dn948096.aspx

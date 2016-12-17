@@ -29,7 +29,7 @@ Note that if the ExpressRoute circuit is unavailable, the VPN route will only ha
 
 
 > [!NOTE]
-> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview.md) and classic. This blueprint uses Resource Manager, which Microsoft recommends for new deployments.
+> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview) and classic. This blueprint uses Resource Manager, which Microsoft recommends for new deployments.
 > 
 > 
 
@@ -154,18 +154,18 @@ If you have an existing on-premises infrastructure already configured with a sui
 
 <!-- links -->
 
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
-[vpn-appliance]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices.md
-[azure-vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
+[vpn-appliance]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices
+[azure-vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways
 [connect-to-an-Azure-vnet]: https://technet.microsoft.com/library/dn786406.aspx
-[azure-network-security-group]: /azure/virtual-network/virtual-networks-nsg.md
-[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started.md
-[expressroute-prereq]: /azure/expressroute/expressroute-prerequisites.md
+[azure-network-security-group]: /azure/virtual-network/virtual-networks-nsg
+[getting-started-with-azure-security]: /azure/security/azure-security-getting-started
+[expressroute-prereq]: /azure/expressroute/expressroute-prerequisites
 [implementing-expressroute]: ./expressroute.md
 [implementing-vpn]: ./vpn.md
 [guidance-expressroute]: ./expressroute.md
 [guidance-vpn]: ./vpn.md
-[best-practices-security]: /azure/guidance/best-practices-network-security.md
+[best-practices-security]: /azure/guidance/best-practices-network-security
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/deploy-reference-architecture.sh
 [vnet-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/parameters/virtualNetwork.parameters.json
@@ -173,7 +173,7 @@ If you have an existing on-premises infrastructure already configured with a sui
 [virtualnetworkgateway-expressroute-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/parameters/virtualNetworkGateway-expressRoute.parameters.json
 [er-circuit-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/parameters/expressRouteCircuit.parameters.json
 [azure-powershell-download]: https://azure.microsoft.com/documentation/articles/powershell-install-configure/
-[naming conventions]: ./guidance-naming-conventions.md
+[naming conventions]: /azure/guidance/guidance-naming-conventions
 [azure-cli]: https://azure.microsoft.com/documentation/articles/xplat-cli-install/
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
 [0]: ../media/blueprints/hybrid-network-expressroute-vpn-failover.png "Architecture of a highly available hybrid network architecture using ExpressRoute and VPN gateway"

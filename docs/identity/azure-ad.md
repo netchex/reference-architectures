@@ -40,7 +40,7 @@ Azure provides two solutions for implementing directory and identity services in
 
 * Extend your existing on-premises Active Directory infrastructure to Azure, by deploying a VM in Azure that runs AD DS as a domain controller. This architecture is more common when the on-premises network and the Azure virtual network (VNet) are connected by a VPN or ExpressRoute connection. 
 
-This article describes the first option, an on-premises network synchronizing with Azure AD. For information about the second option, see [Extending Active Directory Domain Services (AD DS) to Azure][guidance-adds].
+This article describes the first option, an on-premises network synchronizing with Azure AD. For information about the second option, see [Extending Active Directory Domain Services (AD DS) to Azure][adds-extend-domain].
 
 Typical uses for this reference architecture include:
 
@@ -262,44 +262,40 @@ A deployment for a reference architecture that implements these recommendations 
 * Learn the best practices for [creating an ADDS resource forest][adds-resource-forest] in Azure.
 
 <!-- links -->
+[adds-extend-domain]: adds-extend-domain.md
+[adds-resource-forest]: adds-forest.md
 
-[aad-agent-installation]: /azure/active-directory/active-directory-aadconnect-health-agent-install.md
-[aad-application-proxy]: /azure/active-directory/active-directory-application-proxy-enable.md
-[aad-conditional-access]: /azure/active-directory//active-directory-conditional-access.md
-[aad-connect-sync-default-rules]: /azure/active-directory/active-directory-aadconnectsync-understanding-default-configuration.md
-[aad-connect-sync-operational-tasks]: /azure/active-directory/active-directory-aadconnectsync-operations.md#staging-mode
+[implementing-a-multi-tier-architecture-on-Azure]: ../virtual-machines-windows/n-tier.md
+
+[aad-agent-installation]: /azure/active-directory/active-directory-aadconnect-health-agent-install
+[aad-application-proxy]: /azure/active-directory/active-directory-application-proxy-enable
+[aad-conditional-access]: /azure/active-directory//active-directory-conditional-access
+[aad-connect-sync-default-rules]: /azure/active-directory/active-directory-aadconnectsync-understanding-default-configuration
+[aad-connect-sync-operational-tasks]: /azure/active-directory/active-directory-aadconnectsync-operations#staging-mode
 [aad-dynamic-memberships]: https://youtu.be/Tdiz2JqCl9Q
-[aad-dynamic-membership-rules]: /azure/active-directory/active-directory-accessmanagement-groups-with-advanced-rules.md
-[aad-editions]: /azure/active-directory/active-directory-editions.md
-[aad-filtering]: /azure/active-directory/active-directory-aadconnectsync-configure-filtering.md
-[aad-health]: /azure/active-directory/active-directory-aadconnect-health-sync.md
-[aad-health-adds]: /azure/active-directory/active-directory-aadconnect-health-adds.md
-[aad-health-adfs]: /azure/active-directory/active-directory-aadconnect-health-adfs.md
-[aad-identity-protection]: /azure/active-directory/active-directory-identityprotection.md
-[aad-password-management]: /azure/active-directory/active-directory-passwords-customize.md
-<!--[aad-password-management]: /azure/active-directory/active-directory-passwords-getting-started.md#enable-users-to-reset-their-azure-ad-passwords-->
+[aad-dynamic-membership-rules]: /azure/active-directory/active-directory-accessmanagement-groups-with-advanced-rules
+[aad-editions]: /azure/active-directory/active-directory-editions
+[aad-filtering]: /azure/active-directory/active-directory-aadconnectsync-configure-filtering
+[aad-health]: /azure/active-directory/active-directory-aadconnect-health-sync
+[aad-health-adds]: /azure/active-directory/active-directory-aadconnect-health-adds
+[aad-health-adfs]: /azure/active-directory/active-directory-aadconnect-health-adfs
+[aad-identity-protection]: /azure/active-directory/active-directory-identityprotection
+[aad-password-management]: /azure/active-directory/active-directory-passwords-customize
 [aad-powershell]: https://msdn.microsoft.com/library/azure/mt757189.aspx
-[aad-reporting-guide]: /azure/active-directory/active-directory-reporting-guide.md
+[aad-reporting-guide]: /azure/active-directory/active-directory-reporting-guide
 [aad-scalability]: https://blogs.technet.microsoft.com/enterprisemobility/2014/09/02/azure-ad-under-the-hood-of-our-geo-redundant-highly-available-distributed-cloud-directory/
-[aad-sync-best-practices]: /azure/active-directory/active-directory-aadconnectsync-best-practices-changing-default-configuration.md
-[aad-sync-disaster-recovery]: /azure/active-directory/active-directory-aadconnectsync-operations.md#disaster-recovery
-[aad-sync-requirements]: /azure/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements.md
-[aad-topologies]: /azure/active-directory/active-directory-aadconnect-topologies.md
-[aad-user-sign-in]: /azure/active-directory/active-directory-aadconnect-user-signin.md
-[adds-extend-domain]: ./adds-extend-domain.md
-[adds-resource-forest]: ./adds-resource-forest.md
+[aad-sync-best-practices]: /azure/active-directory/active-directory-aadconnectsync-best-practices-changing-default-configuration
+[aad-sync-disaster-recovery]: /azure/active-directory/active-directory-aadconnectsync-operations#disaster-recovery
+[aad-sync-requirements]: /azure/active-directory/active-directory-hybrid-identity-design-considerations-directory-sync-requirements
+[aad-topologies]: /azure/active-directory/active-directory-aadconnect-topologies
+[aad-user-sign-in]: /azure/active-directory/active-directory-aadconnect-user-signin
 [active-directory-domain-services]: https://technet.microsoft.com/library/dd448614.aspx
 [ad-azure-guidelines]: https://msdn.microsoft.com/library/azure/jj156090.aspx
-[azure-active-directory]: /azure/active-directory-domain-services/active-directory-ds-overview.md
-[azure-ad-connect]: /azure/active-directory/active-directory-aadconnect.md
-[azure-multifactor-authentication]: /azure/multi-factor-authentication/multi-factor-authentication.md
-[guidance-adds]: ./adds-extend-domain.md
-[implementing-a-multi-tier-architecture-on-Azure]: ./windows-n-tier.md
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[azure-active-directory]: /azure/active-directory-domain-services/active-directory-ds-overview
+[azure-ad-connect]: /azure/active-directory/active-directory-aadconnect
+[azure-multifactor-authentication]: /azure/multi-factor-authentication/multi-factor-authentication
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [sla-aad]: https://azure.microsoft.com/support/legal/sla/active-directory/v1_0/
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-
-<!--[aad-custom-domain]: /azure/active-directory/active-directory-add-domain.md-->
-<!--[aad-adfs]: /azure/active-directory/active-directory-aadconnect-get-started-custom.md#configuring-federation-with-ad-fs-->
 
 [0]: ../media/guidance-identity-aad/figure1.png "Cloud identity architecture using Azure Active Directory"

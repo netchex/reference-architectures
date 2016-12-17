@@ -34,7 +34,7 @@ The architecture implements a web front end using [Azure App Service][app-servic
 
 The architecture has the following components:
 
-* **Resource group**. A [resource group](/azure/azure-resource-manager/resource-group-overview.md) is a logical container for Azure resources.
+* **Resource group**. A [resource group](/azure/azure-resource-manager/resource-group-overview) is a logical container for Azure resources.
 * **App Service app**. [Azure App Service][app-service] is a fully managed platform for creating and deploying cloud applications.     
 * **App Service plan**. An [App Service plan][app-service-plans] provides the managed virtual machines (VMs) that host your app. All apps associated with a plan run on the same VM instances.
 
@@ -116,7 +116,7 @@ When assigning resources to resource groups, consider the following:
 * Access. You can use [role-based access control][rbac] (RBAC) to apply access policies to the resources in a group.
 * Billing. You can view the rolled-up costs for the resource group.  
 
-For more information, see [Azure Resource Manager overview](/azure/azure-resource-manager/resource-group-overview.md).
+For more information, see [Azure Resource Manager overview](/azure/azure-resource-manager/resource-group-overview).
 
 ### Deployment
 Deployment involves two steps:
@@ -214,47 +214,47 @@ For more information, see [Deploy resources with Azure Resource Manager template
 
 <!-- links -->
 
-[aad-auth]: /azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication.md
-[app-insights]: /azure/application-insights/app-insights-overview.md
-[app-insights-data-rate]: /azure/application-insights/app-insights-pricing.md
+[aad-auth]: /azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication
+[app-insights]: /azure/application-insights/app-insights-overview
+[app-insights-data-rate]: /azure/application-insights/app-insights-pricing
 [app-service]: https://azure.microsoft.com/documentation/services/app-service/
-[app-service-auth]: /azure/app-service-api/app-service-api-authentication.md
-[app-service-plans]: /azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md
+[app-service-auth]: /azure/app-service-api/app-service-api-authentication
+[app-service-plans]: /azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview
 [app-service-plans-tiers]: https://azure.microsoft.com/pricing/details/app-service/
-[app-service-security]: /azure/app-service-web/web-sites-security.md
-[app-settings]: /azure/app-service-web/web-sites-configure.md
-[arm-template]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
-[custom-domain-name]: /azure/app-service-web/web-sites-custom-domain-name.md
-[deploy]: /azure/app-service-web/web-sites-deploy.md
+[app-service-security]: /azure/app-service-web/web-sites-security
+[app-settings]: /azure/app-service-web/web-sites-configure
+[arm-template]: /azure/azure-resource-manager/resource-group-overview#resource-groups
+[custom-domain-name]: /azure/app-service-web/web-sites-custom-domain-name
+[deploy]: /azure/app-service-web/web-sites-deploy
 [deploy-arm-template]: /azure/resource-group-template-deploy
-[deployment-slots]: /azure/app-service-web/web-sites-staged-publishing.md
-[diagnostic-logs]: /azure/app-service-web/web-sites-enable-diagnostic-log.md
+[deployment-slots]: /azure/app-service-web/web-sites-staged-publishing
+[diagnostic-logs]: /azure/app-service-web/web-sites-enable-diagnostic-log
 [kudu]: https://azure.microsoft.com/blog/windows-azure-websites-online-tools-you-should-know-about/
-[monitoring-guidance]: /azure/guidance/best-practices-monitoring.md
+[monitoring-guidance]: /azure/guidance/best-practices-monitoring
 [new-relic]: http://newrelic.com/
 [paas-basic-arm-template]: https://github.com/mspnp/reference-architectures/tree/master/guidance-web-apps-basic/Paas-Basic/Templates
 [perf-analysis]: https://github.com/mspnp/performance-optimization/blob/master/Performance-Analysis-Primer.md
-[rbac]: /azure/active-directory/role-based-access-control-what-is.md
-[resource-group]: /azure/azure-resource-manager/resource-group-overview.md
+[rbac]: /azure/active-directory/role-based-access-control-what-is
+[resource-group]: /azure/azure-resource-manager/resource-group-overview
 [sla]: https://azure.microsoft.com/support/legal/sla/
-[sql-audit]: /azure/sql-database/sql-database-auditing-get-started.md
-[sql-backup]: /azure/sql-database/sql-database-business-continuity.md
+[sql-audit]: /azure/sql-database/sql-database-auditing-get-started
+[sql-backup]: /azure/sql-database/sql-database-business-continuity
 [sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
-[sql-db-overview]: /azure/sql-database/sql-database-technical-overview.md
-[sql-db-scale]: /azure/sql-database/sql-database-scale-up-powershell.md
-[sql-db-service-tiers]: /azure/sql-database/sql-database-service-tiers.md
-[sql-db-v12]: /azure/sql-database/sql-database-features.md
-[sql-dtu]: /azure/sql-database/sql-database-service-tiers.md
-[sql-human-error]: /azure/sql-database/sql-database-business-continuity.md#recover-a-database-after-a-user-or-application-error
-[sql-outage-recovery]: /azure/sql-database/sql-database-business-continuity.md#recover-a-database-to-another-region-from-an-azure-regional-data-center-outage
-[ssl-redirect]: /azure/app-service-web/web-sites-configure-ssl-certificate.md#bkmk_enforce
-[sql-resource-limits]: /azure/sql-database/sql-database-resource-limits.md
-[ssl-cert]: /azure/app-service-web/web-sites-purchase-ssl-web-site.md
+[sql-db-overview]: /azure/sql-database/sql-database-technical-overview
+[sql-db-scale]: /azure/sql-database/sql-database-scale-up-powershell
+[sql-db-service-tiers]: /azure/sql-database/sql-database-service-tiers
+[sql-db-v12]: /azure/sql-database/sql-database-features
+[sql-dtu]: /azure/sql-database/sql-database-service-tiers
+[sql-human-error]: /azure/sql-database/sql-database-business-continuity#recover-a-database-after-a-user-or-application-error
+[sql-outage-recovery]: /azure/sql-database/sql-database-business-continuity#recover-a-database-to-another-region-from-an-azure-regional-data-center-outage
+[ssl-redirect]: /azure/app-service-web/web-sites-configure-ssl-certificate#bkmk_enforce
+[sql-resource-limits]: /azure/sql-database/sql-database-resource-limits
+[ssl-cert]: /azure/app-service-web/web-sites-purchase-ssl-web-site
 [troubleshoot-blade]: https://azure.microsoft.com/updates/self-service-troubleshooting-for-app-service-web-apps-customers/
-[troubleshoot-web-app]: /azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio.md
+[troubleshoot-web-app]: /azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio
 [vsts]: https://www.visualstudio.com/features/vso-cloud-load-testing-vs.aspx
-[web-app-autoscale]: /azure/app-service-web/web-sites-scale.md
-[web-app-backup]: /azure/app-service-web/web-sites-backup.md
-[web-app-log-stream]: /azure/app-service-web/web-sites-enable-diagnostic-log.md#streamlogs
+[web-app-autoscale]: /azure/app-service-web/web-sites-scale
+[web-app-backup]: /azure/app-service-web/web-sites-backup
+[web-app-log-stream]: /azure/app-service-web/web-sites-enable-diagnostic-log#streamlogs
 [0]: ../media/blueprints/paas-basic-web-app.png "Architecture of a basic Azure web application"
 [1]: ../media/blueprints/paas-basic-web-app-staging-slots.png "Swapping slots for production and staging deployments"

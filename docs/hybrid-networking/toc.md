@@ -1,4 +1,4 @@
-# [Reference Architectures](../index.md)
+# [Reference Architectures](/azure/architecture/)
 ## [Connect an on-premises network to Azure](index.md)
 ### [ExpressRoute](expressroute.md)
 ### [VPN](vpn.md)

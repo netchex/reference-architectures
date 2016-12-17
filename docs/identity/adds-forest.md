@@ -57,7 +57,7 @@ The following diagram highlights the important components in this architecture.
 
 For specific recommendations on implementing Active Directory in Azure, see the following articles:
 
-- [Extending Active Directory Domain Services (AD DS) to Azure][extending-ad-to-azure]. 
+- [Extending Active Directory Domain Services (AD DS) to Azure][adds-extend-domain]. 
 - [Guidelines for Deploying Windows Server Active Directory on Azure Virtual Machines][ad-azure-guidelines].
 
 ### Trust
@@ -91,7 +91,7 @@ Also, consider designating one or more servers in each domain as [standby operat
 
 ## Manageability considerations
 
-For information about management and monitoring considerations, see [Extending Active Directory to Azure][extending-ad-to-azure]. 
+For information about management and monitoring considerations, see [Extending Active Directory to Azure][adds-extend-domain]. 
  
 For additional information, see [Monitoring Active Directory][monitoring_ad]. You can install tools such as [Microsoft Systems Center][microsoft_systems_center] on a monitoring server in the management subnet to help perform these tasks.
 
@@ -99,7 +99,7 @@ For additional information, see [Monitoring Active Directory][monitoring_ad]. Yo
 
 Forest level trusts are transitive. If you establish a forest level trust between an on-premises forest and a forest in the cloud, this trust is extended to other new domains created in either forest. If you use domains to provide separation for security purposes, consider creating trusts at the domain level only. Domain level trusts are non-transitive.
 
-For Active Directory-specific security considerations, see the security considerations section in [Extending Active Directory to Azure][extending-ad-to-azure].
+For Active Directory-specific security considerations, see the security considerations section in [Extending Active Directory to Azure][adds-extend-domain].
 
 ## Solution deployment
 
@@ -155,24 +155,24 @@ A solution is available on [Github][github] to deploy this reference architectur
 * Learn the best practices for [creating an AD FS infrastructure][adfs] in Azure.
 
 <!-- links -->
+[adds-extend-domain]: adds-extend-domain.md
+[adfs]: adfs.md
 
+[implementing-a-secure-hybrid-network-architecture]: ../dmz/secure-vnet-hybrid.md
+[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ../dmz/secure-vnet-dmz.md
+
+[running-VMs-for-an-N-tier-architecture-on-Azure]: ../virtual-machines-windows/n-tier.md
 
 [ad-azure-guidelines]: https://msdn.microsoft.com/library/azure/jj156090.aspx
-[adds-extend-domain]: ./adds-extend-domain.md
-[adfs]: ./adfs.md
 [azure-expressroute]: https://azure.microsoft.com/documentation/articles/expressroute-introduction/
 [azure-vpn-gateway]: https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpngateways/
 [creating-external-trusts]: https://technet.microsoft.com/library/cc816837(v=ws.10).aspx
 [creating-forest-trusts]: https://technet.microsoft.com/library/cc816810(v=ws.10).aspx
-[extending-ad-to-azure]: ./adds-extend-domain.md
 [github]: https://github.com/mspnp/reference-architectures/tree/master/guidance-identity-adds-trust
 [incoming-trust]: https://raw.githubusercontent.com/mspnp/reference-architectures/master/guidance-identity-adds-trust/extensions/incoming-trust.ps1
-[implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
-[implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [microsoft_systems_center]: https://www.microsoft.com/server-cloud/products/system-center-2016/
 [monitoring_ad]: https://msdn.microsoft.com/library/bb727046.aspx
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
-[running-VMs-for-an-N-tier-architecture-on-Azure]: ./windows-n-tier.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [solution-script]: https://raw.githubusercontent.com/mspnp/reference-architectures/master/guidance-identity-adds-trust/Deploy-ReferenceArchitecture.ps1
 [standby-operations-masters]: https://technet.microsoft.com/library/cc794737(v=ws.10).aspx
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx

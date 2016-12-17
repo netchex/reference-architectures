@@ -19,6 +19,7 @@ ms.author: telmosampaio
 
 ---
 # Connecting your on-premises network to Azure
+
 Many organizations have an existing on-premises infrastructure that they wish to integrate with Azure. This enables organizations to migrate existing applications to the cloud, and also to take advantage of the scalability, availability, security, and other enterprise features that Azure offers for new applications. The key part of this scenario is understanding how to establish a secure and robust network connection between your organization and Azure.
 
 The patterns & practices group has created a set of reference architectures to address these scenarios. Each reference architecture demonstrates one approach to creating hybrid networks with Azure, and includes:

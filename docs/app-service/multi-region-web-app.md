@@ -152,20 +152,20 @@ If the primary database fails, perform a manual failover to the secondary databa
 <!-- links -->
 
 [azure-sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
-[docdb-geo]: /azure/documentdb/documentdb-distribute-data-globally.md
+[docdb-geo]: /azure/documentdb/documentdb-distribute-data-globally
 [guidance-web-apps-scalability]: scalable-web-app.md
 [health-endpoint-monitoring-pattern]: https://msdn.microsoft.com/library/dn589789.aspx
-[ra-grs]: /azure/storage/storage-redundancy.md#read-access-geo-redundant-storage
-[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions.md
-[resource groups]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
+[ra-grs]: /azure/storage/storage-redundancy#read-access-geo-redundant-storage
+[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions
+[resource groups]: /azure/azure-resource-manager/resource-group-overview#resource-groups
 [services-by-region]: https://azure.microsoft.com/regions/#services
-[sql-failover]: /azure/sql-database/sql-database-disaster-recovery.md
-[sql-replication]: /azure/sql-database/sql-database-geo-replication-overview.md
-[sql-rpo]: /azure/sql-database/sql-database-business-continuity.md#sql-database-features-that-you-can-use-to-provide-business-continuity
-[storage-outage]: /azure/storage/storage-disaster-recovery-guidance.md
-[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method.md
-[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring.md
+[sql-failover]: /azure/sql-database/sql-database-disaster-recovery
+[sql-replication]: /azure/sql-database/sql-database-geo-replication-overview
+[sql-rpo]: /azure/sql-database/sql-database-business-continuity#sql-database-features-that-you-can-use-to-provide-business-continuity
+[storage-outage]: /azure/storage/storage-disaster-recovery-guidance
+[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method
+[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring
 [tm-ps]: https://msdn.microsoft.com/library/mt125941.aspx
-[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods.md
+[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods
 [tm-sla]: https://azure.microsoft.com/support/legal/sla/traffic-manager/v1_0/
 [traffic-manager]: https://azure.microsoft.com/services/traffic-manager/

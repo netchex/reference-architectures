@@ -55,7 +55,7 @@ For detailed information, see [Running a Linux VM on Azure](single-vm.md).
 
 To improve availability and scalability, deploy several VMs in an availability set and use a load balancer to distribute traffic across them.  
 
-[![1]][1]](../virtual-machines-windows/multi-vm.md)
+[![1]][1]](../virtual-machines-windows/multi-vm.md?toc=%2fazure%2farchitecture%24virtual-machines-linux%2f/toc.json)
 
 Benefits:
 
@@ -99,10 +99,3 @@ For detailed information  [Running Linux VMs in multiple regions for high availa
 [1]: ../media/compute/compute-multi-vm.png "Multiple VM architecture in Azure"
 [2]: ../media/compute/compute-multi-tier.png "Multiple tier architecture in Azure"
 [3]: ../media/compute/compute-multi-region.png "Multiple region architecture in Azure"
-[single-vm]: ./windows-single-vm.md
-[single-vm-linux]: ./linux-single-vm.md 
-[multiple-vms]: ./multi-vm.md
-[multiple-tiers]: ./windows-n-tier.md
-[multiple-tiers-linux]: ./linux-n-tier.md
-[multiple-regions]: ./windows-multi-region.md
-[multiple-regions-linux]: ./linux-multi-region.md

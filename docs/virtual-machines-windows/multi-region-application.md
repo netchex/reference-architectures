@@ -22,8 +22,8 @@ ms.author: mwasson
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
-> * [Running Linux VMs in multiple regions for high availability](linux-multi-region.md)
-> * [Running Windows VMs in multiple regions for high availability](windows-multi-region.md)
+> * [Running Linux VMs in multiple regions for high availability](../virtual-machines-linux/multi-region-application.md)
+> * [Running Windows VMs in multiple regions for high availability](multi-region-application.md)
 >
 >
 
@@ -46,7 +46,7 @@ This reference architecture focuses on active/passive with hot standby, using Tr
 
 ## Architecture diagram
 
-The following diagram builds on the architecture shown in [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md).
+The following diagram builds on the architecture shown in [Running Windows VMs for an N-tier architecture on Azure](n-tier.md).
 
 > A Visio document that includes this architecture diagram is available for download at the [Microsoft download center][visio-download]. This diagram is on the "Compute - multi region (Windows)" page.
 > 
@@ -146,7 +146,7 @@ To configure the availability group:
     >
     >
 
-For more information, see [Running Windows VMs for an N-tier architecture on Azure](windows-n-tier.md).
+For more information, see [Running Windows VMs for an N-tier architecture on Azure](n-tier.md).
 
 ## Availability considerations
 
@@ -189,26 +189,27 @@ Measure the recovery times and verify they meet your business requirements. Test
 This series has focused on pure cloud deployments. Enterprise scenarios often require a hybrid network, connecting an on-premises network with an Azure virtual network. To learn how to build such a hybrid network, see [Implementing a Hybrid Network Architecture with Azure and On-premises VPN][hybrid-vpn].
 
 <!-- Links -->
+[hybrid-vpn]: ../hybrid-networking/vpn.md
 
 [azure-sla]: https://azure.microsoft.com/support/legal/sla/
 [azure-sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
 [health-endpoint-monitoring-pattern]: https://msdn.microsoft.com/library/dn589789.aspx
-[hybrid-vpn]: vpn.md
-[install-azure-cli]: /azure/xplat-cli-install.md
-[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions.md
-[resource groups]: /azure/azure-resource-manager/resource-group-overview.md
-[resource-group-links]: /azure/resource-group-link-resources.md
+[install-azure-cli]: /azure/xplat-cli-install
+[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions
+[resource groups]: /azure/azure-resource-manager/resource-group-overview
+[resource-group-links]: /azure/resource-group-link-resources
 [services-by-region]: https://azure.microsoft.com/regions/#services
 [sql-always-on]: https://msdn.microsoft.com/library/hh510230.aspx
 [tablediff]: https://msdn.microsoft.com/library/ms162843.aspx
-[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method.md
-[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring.md
-[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods.md
+[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method
+[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring
+[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods
 [tm-sla]: https://azure.microsoft.com/support/legal/sla/traffic-manager/v1_0/
 [traffic-manager]: https://azure.microsoft.com/services/traffic-manager/
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vnet-dns]: /azure/virtual-network/virtual-networks-manage-dns-in-vnet.md
-[vnet-to-vnet]: /azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps.md
-[vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways.md
+[vnet-dns]: /azure/virtual-network/virtual-networks-manage-dns-in-vnet
+[vnet-to-vnet]: /azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps
+[vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways
 [wsfc]: https://msdn.microsoft.com/library/hh270278.aspx
+
 [0]: ../media/blueprints/compute-multi-dc.png "Highly available network architecture for Azure N-tier applications"

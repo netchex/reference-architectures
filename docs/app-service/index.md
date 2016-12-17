@@ -18,7 +18,7 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-# Web application architectures for Azure App Service
+# Azure App Service
 
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 

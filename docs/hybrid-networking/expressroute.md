@@ -25,7 +25,7 @@ ms.author: telmos
 This article describes best practices for connecting an on-premises network to virtual networks on Azure using [Azure ExpressRoute][expressroute-introduction]. ExpressRoute connections are made using a private, dedicated connection through a third-party connectivity provider. The private connection extends your on-premises network into Azure, providing access to your own IaaS infrastructure in Azure, public endpoints used in PaaS services, and Office365 SaaS services. This article focuses on using ExpressRoute to connect to a single Azure virtual network (VNet).
 
 > [!NOTE]
-> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview.md) and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
+> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview) and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
 > 
 > 
 
@@ -296,24 +296,25 @@ If you have an existing on-premises infrastructure already configured with a sui
 * See [Implementing a highly available hybrid network architecture][highly-available-network-architecture] for information about increasing the availability of a hybrid network based on ExpressRoute by failing over to a VPN connection.
 
 <!-- links -->
-[expressroute-technical-overview]: /azure/expressroute/expressroute-introduction.md
-[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[forced-tuneling]: ../dmz/secure-vnet-hybrid.md
+[highly-available-network-architecture]: ./expressroute-vpn-failover.md
+[naming-conventions]: /azure/guidance/guidance-naming-conventions
+
+[expressroute-technical-overview]: /azure/expressroute/expressroute-introduction
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview
 [azure-powershell]: /azure/powershell-azure-resource-manager
-[expressroute-prereqs]: /azure/expressroute/expressroute-prerequisites.md
-[configure-expressroute-routing]: /azure/expressroute/expressroute-howto-routing-arm.md
+[expressroute-prereqs]: /azure/expressroute/expressroute-prerequisites
+[configure-expressroute-routing]: /azure/expressroute/expressroute-howto-routing-arm
 [sla-for-expressroute]: https://azure.microsoft.com/support/legal/sla/expressroute/v1_0/
-[link-vnet-to-expressroute]: /azure/expressroute/expressroute-howto-linkvnet-arm.md
-[ExpressRoute-provisioning]: /azure/expressroute/expressroute-workflows.md
-[expressroute-introduction]: /azure/expressroute/expressroute-introduction.md
-[expressroute-peering]: /azure/expressroute/expressroute-circuit-peerings.md
+[link-vnet-to-expressroute]: /azure/expressroute/expressroute-howto-linkvnet-arm
+[ExpressRoute-provisioning]: /azure/expressroute/expressroute-workflows
+[expressroute-introduction]: /azure/expressroute/expressroute-introduction
+[expressroute-peering]: /azure/expressroute/expressroute-circuit-peerings
 [expressroute-pricing]: https://azure.microsoft.com/pricing/details/expressroute/
-[expressroute-limits]: /azure/azure-subscription-service-limits.md#networking-limits
+[expressroute-limits]: /azure/azure-subscription-service-limits#networking-limits
 [sample-script]: #sample-solution-script
 [azurect]: https://github.com/Azure/NetworkMonitoring/tree/master/AzureCT
-[forced-tuneling]: ./secure-vnet-hybrid.md
-[highly-available-network-architecture]: ./expressroute-vpn-failover.md
-[arm-templates]: /azure/resource-group-authoring-templates.md
-[naming-conventions]: ./guidance-naming-conventions.md
+[arm-templates]: /azure/resource-group-authoring-templates
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/deploy-reference-architecture.sh
 [vnet-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/parameters/virtualNetwork.parameters.json

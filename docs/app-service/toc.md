@@ -1,4 +1,4 @@
-# [Reference Architectures](../index.md)
+# [Reference Architectures](/azure/architecture)
 ## [App Service](index.md)
 ### [Basic web application](basic-web-app.md)
 ### [Improving scalability](scalable-web-app.md)
