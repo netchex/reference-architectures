@@ -20,7 +20,7 @@ ms.author: telmos
 ---
 # Implementing Active Directory Federation Services (AD FS) in Azure 
 
-[!INCLUDE [pnp-RA-branding](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article describes how to implement a secure hybrid network that extends your on-premises network to Azure and uses [Active Directory Federation Services (AD FS)][active-directory-federation-services] to perform federated authentication and authorization for components running in Azure. This architecture extends the implementation described in [Extending Active Directory to Azure][implementing-active-directory].
 
@@ -294,11 +294,11 @@ A solution is available on [Github][github] to deploy this reference architectur
 * Learn about [Azure Active Directory B2C][aadb2c].
 
 <!-- links -->
-[azure-cli]: ../../azure-resource-manager/xplat-cli-azure-resource-manager.md
+[azure-cli]: /azure/azure-resource-manager/xplat-cli-azure-resource-manager.md
 [vm-recommendations]: ./windows-single-vm.md
 [naming-conventions]: ./guidance-naming-conventions.md
 [implementing-active-directory]: ./adds-extend-domain.md
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
 [implementing-a-secure-hybrid-network-architecture]: ./secure-vnet-hybrid.md
 [implementing-a-secure-hybrid-network-architecture-with-internet-access]: ./secure-vnet-dmz.md
 [DRS]: https://technet.microsoft.com/library/dn280945.aspx
@@ -310,14 +310,14 @@ A solution is available on [Github][github] to deploy this reference architectur
 [adfs_certificates]: https://technet.microsoft.com/library/dn781428(v=ws.11).aspx
 [create_service_account_for_adfs_farm]: https://technet.microsoft.com/library/dd807078.aspx
 [import_server_authentication_certificate]: https://technet.microsoft.com/library/dd807088.aspx
-[adfs-configuration-database]: https://technet.microsoft.com/en-us/library/ee913581(v=ws.11).aspx
+[adfs-configuration-database]: https://technet.microsoft.com/library/ee913581(v=ws.11).aspx
 [active-directory-federation-services]: https://technet.microsoft.com/windowsserver/dd448613.aspx
 [security-considerations]: #security-considerations
 [recommendations]: #recommendations
-[claims-aware applications]: https://msdn.microsoft.com/en-us/library/windows/desktop/bb736227(v=vs.85).aspx
-[active-directory-federation-services-overview]: https://technet.microsoft.com/en-us/library/hh831502(v=ws.11).aspx
+[claims-aware applications]: https://msdn.microsoft.com/library/windows/desktop/bb736227(v=vs.85).aspx
+[active-directory-federation-services-overview]: https://technet.microsoft.com/library/hh831502(v=ws.11).aspx
 [establishing-federation-trust]: https://blogs.msdn.microsoft.com/alextch/2011/06/27/establishing-federation-trust/
-[Deploying_a_federation_server_farm]:  https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-azure-adfs/
+[Deploying_a_federation_server_farm]:  https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-azure-adfs/
 [install_and_configure_the_web_application_proxy_server]: https://technet.microsoft.com/library/dn383662.aspx
 [publish_applications_using_AD_FS_preauthentication]: https://technet.microsoft.com/library/dn383640.aspx
 [managing-adfs-components]: https://technet.microsoft.com/library/cc759026.aspx
@@ -325,7 +325,7 @@ A solution is available on [Github][github] to deploy this reference architectur
 [azure-powershell-download]: https://azure.microsoft.com/documentation/articles/powershell-install-configure/
 [aad]: https://azure.microsoft.com/documentation/services/active-directory/
 [aadb2c]: https://azure.microsoft.com/documentation/services/active-directory-b2c/
-[adfs-intro]: ../../active-directory/active-directory-aadconnect-azure-adfs.md
+[adfs-intro]: /azure/active-directory/active-directory-aadconnect-azure-adfs.md
 [hybrid-azure-on-prem-vpn]: ./vpn.md
 [extending-ad-to-azure]: ./adds-extend-domain.md
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx

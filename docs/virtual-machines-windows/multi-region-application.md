@@ -19,7 +19,7 @@ ms.author: mwasson
 
 ---
 # Running Windows VMs in multiple regions for high availability
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
 > * [Running Linux VMs in multiple regions for high availability](linux-multi-region.md)
@@ -191,24 +191,24 @@ This series has focused on pure cloud deployments. Enterprise scenarios often re
 <!-- Links -->
 
 [azure-sla]: https://azure.microsoft.com/support/legal/sla/
-[azure-sql-db]: https://azure.microsoft.com/en-us/documentation/services/sql-database/
+[azure-sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
 [health-endpoint-monitoring-pattern]: https://msdn.microsoft.com/library/dn589789.aspx
 [hybrid-vpn]: vpn.md
-[install-azure-cli]: ../../xplat-cli-install.md
-[regional-pairs]: ../../guidance/best-practices-availability-paired-regions.md
-[resource groups]: ../../azure-resource-manager/resource-group-overview.md
-[resource-group-links]: ../../resource-group-link-resources.md
-[services-by-region]: https://azure.microsoft.com/en-us/regions/#services
-[sql-always-on]: https://msdn.microsoft.com/en-us/library/hh510230.aspx
-[tablediff]: https://msdn.microsoft.com/en-us/library/ms162843.aspx
-[tm-configure-failover]: ../../traffic-manager/traffic-manager-configure-failover-routing-method.md
-[tm-monitoring]: ../../traffic-manager/traffic-manager-monitoring.md
-[tm-routing]: ../../traffic-manager/traffic-manager-routing-methods.md
-[tm-sla]: https://azure.microsoft.com/en-us/support/legal/sla/traffic-manager/v1_0/
-[traffic-manager]: https://azure.microsoft.com/en-us/services/traffic-manager/
+[install-azure-cli]: /azure/xplat-cli-install.md
+[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions.md
+[resource groups]: /azure/azure-resource-manager/resource-group-overview.md
+[resource-group-links]: /azure/resource-group-link-resources.md
+[services-by-region]: https://azure.microsoft.com/regions/#services
+[sql-always-on]: https://msdn.microsoft.com/library/hh510230.aspx
+[tablediff]: https://msdn.microsoft.com/library/ms162843.aspx
+[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method.md
+[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring.md
+[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods.md
+[tm-sla]: https://azure.microsoft.com/support/legal/sla/traffic-manager/v1_0/
+[traffic-manager]: https://azure.microsoft.com/services/traffic-manager/
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vnet-dns]: ../../virtual-network/virtual-networks-manage-dns-in-vnet.md
-[vnet-to-vnet]: ../../vpn-gateway/vpn-gateway-vnet-vnet-rm-ps.md
-[vpn-gateway]: ../../vpn-gateway/vpn-gateway-about-vpngateways.md
-[wsfc]: https://msdn.microsoft.com/en-us/library/hh270278.aspx
+[vnet-dns]: /azure/virtual-network/virtual-networks-manage-dns-in-vnet.md
+[vnet-to-vnet]: /azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps.md
+[vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways.md
+[wsfc]: https://msdn.microsoft.com/library/hh270278.aspx
 [0]: ../media/blueprints/compute-multi-dc.png "Highly available network architecture for Azure N-tier applications"

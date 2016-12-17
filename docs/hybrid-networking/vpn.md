@@ -19,7 +19,7 @@ ms.author: roshar
 
 ---
 # Implementing a hybrid network architecture with Azure and on-premises VPN
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article outlines a set of practices for extending an on-premises network onto Azure using a site-to-site virtual private network (VPN). The traffic flows between the on-premises network and an Azure Virtual Network (VNet) through an IPSec VPN tunnel. 
 
@@ -493,23 +493,23 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 <!-- links -->
 
 [implementing-a-multi-tier-architecture-on-Azure]: ./windows-n-tier.md
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
 [adds-extend-domain]: adds-extend-domain.md
-[arm-templates]: ../../resource-group-authoring-templates.md
-[azure-cli]: ../../virtual-machines-command-line-tools.md
-[azure-portal]: ../../azure-portal/resource-group-portal.md
-[azure-powershell]: ../../powershell-azure-resource-manager.md
-[azure-virtual-network]: ../../virtual-network/virtual-networks-overview.md
-[vpn-appliance]: ../../vpn-gateway/vpn-gateway-about-vpn-devices.md
+[arm-templates]: /azure/resource-group-authoring-templates.md
+[azure-cli]: /azure/virtual-machines-command-line-tools.md
+[azure-portal]: /azure/azure-portal/resource-group-portal.md
+[azure-powershell]: /azure/powershell-azure-resource-manager.md
+[azure-virtual-network]: /azure/virtual-network/virtual-networks-overview.md
+[vpn-appliance]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices.md
 [azure-vpn-gateway]: https://azure.microsoft.com/services/vpn-gateway/
 [azure-gateway-charges]: https://azure.microsoft.com/pricing/details/vpn-gateway/
 [azure-network-security-group]: https://azure.microsoft.com/documentation/articles/virtual-networks-nsg/
 [connect-to-an-Azure-vnet]: https://technet.microsoft.com/library/dn786406.aspx
-[vpn-gateway-multi-site]: ../../vpn-gateway/vpn-gateway-multi-site.md
+[vpn-gateway-multi-site]: /azure/vpn-gateway/vpn-gateway-multi-site.md
 [policy-based-routing]: https://en.wikipedia.org/wiki/Policy-based_routing
 [route-based-routing]: https://en.wikipedia.org/wiki/Static_routing
-[network-security-group]: ../../virtual-network/virtual-networks-nsg.md
-[sla-for-vpn-gateway]: https://azure.microsoft.com/en-us/support/legal/sla/vpn-gateway/v1_2/
+[network-security-group]: /azure/virtual-network/virtual-networks-nsg.md
+[sla-for-vpn-gateway]: https://azure.microsoft.com/support/legal/sla/vpn-gateway/v1_2/
 [additional-firewall-rules]: https://technet.microsoft.com/library/dn786406.aspx#firewall
 [nagios]: https://www.nagios.org/
 [azure-vpn-gateway-diagnostics]: http://blogs.technet.com/b/keithmayer/archive/2014/12/18/diagnose-azure-virtual-network-vpn-connectivity-issues-with-powershell.aspx
@@ -522,18 +522,18 @@ Once you have your Azure VPN gateway functioning correctly, you can expand your 
 [troubleshooting-vpn-errors]: https://blogs.technet.microsoft.com/rrasblog/2009/08/12/troubleshooting-common-vpn-related-errors/
 [rras-logging]: https://www.petri.com/enable-diagnostic-logging-in-windows-server-2012-r2-routing-and-remote-access
 [create-on-prem-network]: https://technet.microsoft.com/library/dn786406.aspx#routing
-[create-azure-vnet]: ../../virtual-network/virtual-networks-create-vnet-classic-cli.md
+[create-azure-vnet]: /azure/virtual-network/virtual-networks-create-vnet-classic-cli.md
 [azure-vm-diagnostics]: https://azure.microsoft.com/blog/windows-azure-virtual-machine-monitoring-with-wad-extension/
-[application-insights]: ../../application-insights/app-insights-overview-usage.md
+[application-insights]: /azure/application-insights/app-insights-overview-usage.md
 [forced-tunneling]: https://azure.microsoft.com/documentation/articles/vpn-gateway-about-forced-tunneling/
-[getting-started-with-azure-security]: ./../../security/azure-security-getting-started.md
-[vpn-appliances]: ../../vpn-gateway/vpn-gateway-about-vpn-devices.md
-[installing-ad]: ../../active-directory/active-directory-install-replica-active-directory-domain-controller.md
+[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started.md
+[vpn-appliances]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices.md
+[installing-ad]: /azure/active-directory/active-directory-install-replica-active-directory-domain-controller.md
 [deploying-ad]: https://msdn.microsoft.com/library/azure/jj156090.aspx
 [creating-dns]: https://blogs.msdn.microsoft.com/mcsuksoldev/2014/03/04/creating-a-dns-server-in-azure-iaas/
-[configuring-dns]: ../../virtual-network/virtual-networks-manage-dns-in-vnet.md
+[configuring-dns]: /azure/virtual-network/virtual-networks-manage-dns-in-vnet.md
 [stormshield]: https://azure.microsoft.com/marketplace/partners/stormshield/stormshield-network-security-for-cloud/
-[vpn-appliance-ipsec]: ../../vpn-gateway/vpn-gateway-about-vpn-devices.md#ipsec-parameters
+[vpn-appliance-ipsec]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices.md#ipsec-parameters
 [expressroute]: ./expressroute.md
 [naming conventions]: ./guidance-naming-conventions.md
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn/Deploy-ReferenceArchitecture.ps1

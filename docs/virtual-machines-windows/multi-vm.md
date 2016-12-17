@@ -19,7 +19,7 @@ ms.author: mwasson
 
 ---
 # Running multiple VMs on Azure for scalability and availability
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article outlines a set of proven practices for running multiple virtual machine (VM) instances behind a load balancer, to improve availability and scalability.   
 
@@ -168,32 +168,32 @@ A deployment for this reference architecture is available on [GitHub][github-fol
 Placing several VMs behind a load balancer is a building block for creating multi-tier architectures. For more information, see [Running Windows VMs for an N-tier architecture on Azure][n-tier-windows] and [Running Linux VMs for an N-tier architecture on Azure][n-tier-linux]
 
 <!-- Links -->
-[availability set]: ../../virtual-machines/virtual-machines-windows-manage-availability.md
+[availability set]: /azure/virtual-machines/virtual-machines-windows-manage-availability.md
 [availability set ch9]: https://channel9.msdn.com/Series/Microsoft-Azure-Fundamentals-Virtual-Machines/08
-[azure-automation]: https://azure.microsoft.com/en-us/documentation/services/automation/
-[azure-cli]: ../../virtual-machines-command-line-tools.md
-[azure-automation]: ../../automation/automation-intro.md
+[azure-automation]: https://azure.microsoft.com/documentation/services/automation/
+[azure-cli]: /azure/virtual-machines-command-line-tools.md
+[azure-automation]: /azure/automation/automation-intro.md
 [bastion host]: https://en.wikipedia.org/wiki/Bastion_host
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-multi-vm
-[health probe log]: ../../load-balancer/load-balancer-monitor-log.md
-[health probes]: ../../load-balancer/load-balancer-overview.md#load-balancer-features
-[health-probe-ip]: ../../virtual-network/virtual-networks-nsg.md#special-rules
-[load balancer]: ../../load-balancer/load-balancer-get-started-internet-arm-cli.md
-[load balancer hashing]: ../../load-balancer/load-balancer-overview.md#load-balancer-features
+[health probe log]: /azure/load-balancer/load-balancer-monitor-log.md
+[health probes]: /azure/load-balancer/load-balancer-overview.md#load-balancer-features
+[health-probe-ip]: /azure/virtual-network/virtual-networks-nsg.md#special-rules
+[load balancer]: /azure/load-balancer/load-balancer-get-started-internet-arm-cli.md
+[load balancer hashing]: /azure/load-balancer/load-balancer-overview.md#load-balancer-features
 [n-tier-linux]: linux-n-tier.md
 [n-tier-windows]: windows-n-tier.md
 [naming conventions]: guidance-naming-conventions.md
-[network-security]: ../../guidance/best-practices-network-security.md
-[nsg]: ../../virtual-network/virtual-networks-nsg.md
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md 
-[Runbook Gallery]: ../../automation/automation-runbook-gallery.md#runbooks-in-runbook-gallery
+[network-security]: /azure/guidance/best-practices-network-security.md
+[nsg]: /azure/virtual-network/virtual-networks-nsg.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md 
+[Runbook Gallery]: /azure/automation/automation-runbook-gallery.md#runbooks-in-runbook-gallery
 [single vm]: windows-single-vm.md
-[subscription-limits]: ../../azure-subscription-service-limits.md
+[subscription-limits]: /azure/azure-subscription-service-limits.md
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[vm-disk-limits]: ../../azure-subscription-service-limits.md#virtual-machine-disk-limits
-[vm-sla]: https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_2/
-[vmss]: ../../virtual-machine-scale-sets/virtual-machine-scale-sets-overview.md
-[vmss-design]: ../../virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview.md
+[vm-disk-limits]: /azure/azure-subscription-service-limits.md#virtual-machine-disk-limits
+[vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines/v1_2/
+[vmss]: /azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview.md
+[vmss-design]: /azure/virtual-machine-scale-sets/virtual-machine-scale-sets-design-overview.md
 [vmss-quickstart]: https://azure.microsoft.com/documentation/templates/?term=scale+set
 [VM-sizes]: https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/
 [0]: ../media/blueprints/compute-multi-vm.png "Architecture of a multi-VM solution on Azure comprising an availability set with two VMs and a load balancer"

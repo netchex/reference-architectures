@@ -19,7 +19,7 @@ ms.author: mwasson
 
 ---
 # Basic web application architecture in Azure
-[!INCLUDE [pnp-RA-branding](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article shows a recommended architecture for a basic web application in Microsoft Azure.
 The architecture implements a web front end using [Azure App Service][app-service] with [Azure SQL Database][sql-db] as a database. Other articles in this series build on this basic architecture, and add components such as cache and content delivery network (CDN).
@@ -34,7 +34,7 @@ The architecture implements a web front end using [Azure App Service][app-servic
 
 The architecture has the following components:
 
-* **Resource group**. A [resource group](../../azure-resource-manager/resource-group-overview.md) is a logical container for Azure resources.
+* **Resource group**. A [resource group](/azure/azure-resource-manager/resource-group-overview.md) is a logical container for Azure resources.
 * **App Service app**. [Azure App Service][app-service] is a fully managed platform for creating and deploying cloud applications.     
 * **App Service plan**. An [App Service plan][app-service-plans] provides the managed virtual machines (VMs) that host your app. All apps associated with a plan run on the same VM instances.
 
@@ -116,7 +116,7 @@ When assigning resources to resource groups, consider the following:
 * Access. You can use [role-based access control][rbac] (RBAC) to apply access policies to the resources in a group.
 * Billing. You can view the rolled-up costs for the resource group.  
 
-For more information, see [Azure Resource Manager overview](../../azure-resource-manager/resource-group-overview.md).
+For more information, see [Azure Resource Manager overview](/azure/azure-resource-manager/resource-group-overview.md).
 
 ### Deployment
 Deployment involves two steps:
@@ -214,47 +214,47 @@ For more information, see [Deploy resources with Azure Resource Manager template
 
 <!-- links -->
 
-[aad-auth]: ../../app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication.md
-[app-insights]: ../../application-insights/app-insights-overview.md
-[app-insights-data-rate]: ../../application-insights/app-insights-pricing.md
+[aad-auth]: /azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication.md
+[app-insights]: /azure/application-insights/app-insights-overview.md
+[app-insights-data-rate]: /azure/application-insights/app-insights-pricing.md
 [app-service]: https://azure.microsoft.com/documentation/services/app-service/
-[app-service-auth]: ../../app-service-api/app-service-api-authentication.md
-[app-service-plans]: ../../app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md
+[app-service-auth]: /azure/app-service-api/app-service-api-authentication.md
+[app-service-plans]: /azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md
 [app-service-plans-tiers]: https://azure.microsoft.com/pricing/details/app-service/
-[app-service-security]: ../../app-service-web/web-sites-security.md
-[app-settings]: ../../app-service-web/web-sites-configure.md
-[arm-template]: ../../azure-resource-manager/resource-group-overview.md#resource-groups
-[custom-domain-name]: ../../app-service-web/web-sites-custom-domain-name.md
-[deploy]: ../../app-service-web/web-sites-deploy.md
-[deploy-arm-template]: ../../resource-group-template-deploy.md
-[deployment-slots]: ../../app-service-web/web-sites-staged-publishing.md
-[diagnostic-logs]: ../../app-service-web/web-sites-enable-diagnostic-log.md
+[app-service-security]: /azure/app-service-web/web-sites-security.md
+[app-settings]: /azure/app-service-web/web-sites-configure.md
+[arm-template]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
+[custom-domain-name]: /azure/app-service-web/web-sites-custom-domain-name.md
+[deploy]: /azure/app-service-web/web-sites-deploy.md
+[deploy-arm-template]: /azure/resource-group-template-deploy
+[deployment-slots]: /azure/app-service-web/web-sites-staged-publishing.md
+[diagnostic-logs]: /azure/app-service-web/web-sites-enable-diagnostic-log.md
 [kudu]: https://azure.microsoft.com/blog/windows-azure-websites-online-tools-you-should-know-about/
-[monitoring-guidance]: ../../guidance/best-practices-monitoring.md
+[monitoring-guidance]: /azure/guidance/best-practices-monitoring.md
 [new-relic]: http://newrelic.com/
 [paas-basic-arm-template]: https://github.com/mspnp/reference-architectures/tree/master/guidance-web-apps-basic/Paas-Basic/Templates
 [perf-analysis]: https://github.com/mspnp/performance-optimization/blob/master/Performance-Analysis-Primer.md
-[rbac]: ../../active-directory/role-based-access-control-what-is.md
-[resource-group]: ../../azure-resource-manager/resource-group-overview.md
+[rbac]: /azure/active-directory/role-based-access-control-what-is.md
+[resource-group]: /azure/azure-resource-manager/resource-group-overview.md
 [sla]: https://azure.microsoft.com/support/legal/sla/
-[sql-audit]: ../../sql-database/sql-database-auditing-get-started.md
-[sql-backup]: ../../sql-database/sql-database-business-continuity.md
+[sql-audit]: /azure/sql-database/sql-database-auditing-get-started.md
+[sql-backup]: /azure/sql-database/sql-database-business-continuity.md
 [sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
-[sql-db-overview]: ../../sql-database/sql-database-technical-overview.md
-[sql-db-scale]: ../../sql-database/sql-database-scale-up-powershell.md
-[sql-db-service-tiers]: ../../sql-database/sql-database-service-tiers.md
-[sql-db-v12]: ../../sql-database/sql-database-features.md
-[sql-dtu]: ../../sql-database/sql-database-service-tiers.md
-[sql-human-error]: ../../sql-database/sql-database-business-continuity.md#recover-a-database-after-a-user-or-application-error
-[sql-outage-recovery]: ../../sql-database/sql-database-business-continuity.md#recover-a-database-to-another-region-from-an-azure-regional-data-center-outage
-[ssl-redirect]: ../../app-service-web/web-sites-configure-ssl-certificate.md#bkmk_enforce
-[sql-resource-limits]: ../../sql-database/sql-database-resource-limits.md
-[ssl-cert]: ../../app-service-web/web-sites-purchase-ssl-web-site.md
+[sql-db-overview]: /azure/sql-database/sql-database-technical-overview.md
+[sql-db-scale]: /azure/sql-database/sql-database-scale-up-powershell.md
+[sql-db-service-tiers]: /azure/sql-database/sql-database-service-tiers.md
+[sql-db-v12]: /azure/sql-database/sql-database-features.md
+[sql-dtu]: /azure/sql-database/sql-database-service-tiers.md
+[sql-human-error]: /azure/sql-database/sql-database-business-continuity.md#recover-a-database-after-a-user-or-application-error
+[sql-outage-recovery]: /azure/sql-database/sql-database-business-continuity.md#recover-a-database-to-another-region-from-an-azure-regional-data-center-outage
+[ssl-redirect]: /azure/app-service-web/web-sites-configure-ssl-certificate.md#bkmk_enforce
+[sql-resource-limits]: /azure/sql-database/sql-database-resource-limits.md
+[ssl-cert]: /azure/app-service-web/web-sites-purchase-ssl-web-site.md
 [troubleshoot-blade]: https://azure.microsoft.com/updates/self-service-troubleshooting-for-app-service-web-apps-customers/
-[troubleshoot-web-app]: ../../app-service-web/web-sites-dotnet-troubleshoot-visual-studio.md
+[troubleshoot-web-app]: /azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio.md
 [vsts]: https://www.visualstudio.com/features/vso-cloud-load-testing-vs.aspx
-[web-app-autoscale]: ../../app-service-web/web-sites-scale.md
-[web-app-backup]: ../../app-service-web/web-sites-backup.md
-[web-app-log-stream]: ../../app-service-web/web-sites-enable-diagnostic-log.md#streamlogs
+[web-app-autoscale]: /azure/app-service-web/web-sites-scale.md
+[web-app-backup]: /azure/app-service-web/web-sites-backup.md
+[web-app-log-stream]: /azure/app-service-web/web-sites-enable-diagnostic-log.md#streamlogs
 [0]: ../media/blueprints/paas-basic-web-app.png "Architecture of a basic Azure web application"
 [1]: ../media/blueprints/paas-basic-web-app-staging-slots.png "Swapping slots for production and staging deployments"

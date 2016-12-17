@@ -20,7 +20,7 @@ ms.author: mwasson
 ---
 # Running Linux VMs for an N-tier architecture on Azure
 
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 > [!div class="op_single_selector"]
 > * [Running Linux VMs for an N-tier architecture on Azure](linux-n-tier.md)
@@ -157,9 +157,9 @@ To achieve high availability for this reference architecture, [deploy to multipl
 
 <!-- links -->
 
-[azure-administration]: ../../automation/automation-intro.md
-[azure-availability-sets]: ../../virtual-machines/virtual-machines-windows-manage-availability.md#configure-each-application-tier-into-separate-availability-sets
-[availability-sets-manage]: ../../virtual-machines/virtual-machines-windows-manage-availability.md
+[azure-administration]: /azure/automation/automation-intro.md
+[azure-availability-sets]: /azure/virtual-machines/virtual-machines-windows-manage-availability.md#configure-each-application-tier-into-separate-availability-sets
+[availability-sets-manage]: /azure/virtual-machines/virtual-machines-windows-manage-availability.md
 [bastion host]: https://en.wikipedia.org/wiki/Bastion_host
 [cassandra-consistency]: http://docs.datastax.com/en/cassandra/2.0/cassandra/dml/dml_config_consistency_c.html
 [cassandra-consistency-usage]: http://medium.com/@foundev/cassandra-how-many-nodes-are-talked-to-with-quorum-also-should-i-use-it-98074e75d7d5#.b4pb4alb2
@@ -170,23 +170,23 @@ To achieve high availability for this reference architecture, [deploy to multipl
 [datastax]: http://www.datastax.com/products/datastax-enterprise
 [dmz]: secure-vnet-dmz.md
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-n-tier
-[lb-external-create]: ../../load-balancer/load-balancer-get-started-internet-portal.md
-[lb-internal-create]: ../../load-balancer/load-balancer-get-started-ilb-arm-portal.md
-[load-balancer-external]: ../../load-balancer/load-balancer-internet-overview.md
-[load-balancer-internal]: ../../load-balancer/load-balancer-internal-overview.md
+[lb-external-create]: /azure/load-balancer/load-balancer-get-started-internet-portal.md
+[lb-internal-create]: /azure/load-balancer/load-balancer-get-started-ilb-arm-portal.md
+[load-balancer-external]: /azure/load-balancer/load-balancer-internet-overview.md
+[load-balancer-internal]: /azure/load-balancer/load-balancer-internal-overview.md
 [multi-dc]: linux-multi-region.md
 [multi-vm]: multi-vm.md
 [naming conventions]: guidance-naming-conventions.md
-[nsg]: ../../virtual-network/virtual-networks-nsg.md
-[nsg-rules]: ../../azure-resource-manager/best-practices-resource-manager-security.md#network-security-groups
-[operations-management-suite]: https://www.microsoft.com/en-us/server-cloud/operations-management-suite/overview.aspx
-[plan-network]: ../../virtual-network/virtual-network-vnet-plan-design-arm.md
+[nsg]: /azure/virtual-network/virtual-networks-nsg.md
+[nsg-rules]: /azure/azure-resource-manager/best-practices-resource-manager-security.md#network-security-groups
+[operations-management-suite]: https://www.microsoft.com/server-cloud/operations-management-suite/overview.aspx
+[plan-network]: /azure/virtual-network/virtual-network-vnet-plan-design-arm.md
 [private-ip-space]: https://en.wikipedia.org/wiki/Private_network#Private_IPv4_address_spaces
-[public IP address]: ../../virtual-network/virtual-network-ip-addresses-overview-arm.md
+[public IP address]: /azure/virtual-network/virtual-network-ip-addresses-overview-arm.md
 [puppet]: https://puppetlabs.com/blog/managing-azure-virtual-machines-puppet
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
-[vm-sla]: https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines
-[vnet faq]: ../../virtual-network/virtual-networks-faq.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines
+[vnet faq]: /azure/virtual-network/virtual-networks-faq.md
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
 [Nagios]: https://www.nagios.org/
 [Zabbix]: http://www.zabbix.com/

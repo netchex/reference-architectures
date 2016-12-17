@@ -19,7 +19,7 @@ ms.author: mwasson
 
 ---
 # Running a web application with high availability in Azure
-[!INCLUDE [pnp-RA-branding](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article shows a recommended architecture for running a web application in multiple regions, to achieve high availability. The architecture builds on [Improving scalability in a web application][guidance-web-apps-scalability].
 
@@ -151,21 +151,21 @@ If the primary database fails, perform a manual failover to the secondary databa
 
 <!-- links -->
 
-[azure-sql-db]: https://azure.microsoft.com/en-us/documentation/services/sql-database/
-[docdb-geo]: ../../documentdb/documentdb-distribute-data-globally.md
+[azure-sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
+[docdb-geo]: /azure/documentdb/documentdb-distribute-data-globally.md
 [guidance-web-apps-scalability]: scalable-web-app.md
 [health-endpoint-monitoring-pattern]: https://msdn.microsoft.com/library/dn589789.aspx
-[ra-grs]: ../../storage/storage-redundancy.md#read-access-geo-redundant-storage
-[regional-pairs]: ../../guidance/best-practices-availability-paired-regions.md
-[resource groups]: ../../azure-resource-manager/resource-group-overview.md#resource-groups
-[services-by-region]: https://azure.microsoft.com/en-us/regions/#services
-[sql-failover]: ../../sql-database/sql-database-disaster-recovery.md
-[sql-replication]: ../../sql-database/sql-database-geo-replication-overview.md
-[sql-rpo]: ../../sql-database/sql-database-business-continuity.md#sql-database-features-that-you-can-use-to-provide-business-continuity
-[storage-outage]: ../../storage/storage-disaster-recovery-guidance.md
-[tm-configure-failover]: ../../traffic-manager/traffic-manager-configure-failover-routing-method.md
-[tm-monitoring]: ../../traffic-manager/traffic-manager-monitoring.md
-[tm-ps]: https://msdn.microsoft.com/en-us/library/mt125941.aspx
-[tm-routing]: ../../traffic-manager/traffic-manager-routing-methods.md
-[tm-sla]: https://azure.microsoft.com/en-us/support/legal/sla/traffic-manager/v1_0/
-[traffic-manager]: https://azure.microsoft.com/en-us/services/traffic-manager/
+[ra-grs]: /azure/storage/storage-redundancy.md#read-access-geo-redundant-storage
+[regional-pairs]: /azure/guidance/best-practices-availability-paired-regions.md
+[resource groups]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
+[services-by-region]: https://azure.microsoft.com/regions/#services
+[sql-failover]: /azure/sql-database/sql-database-disaster-recovery.md
+[sql-replication]: /azure/sql-database/sql-database-geo-replication-overview.md
+[sql-rpo]: /azure/sql-database/sql-database-business-continuity.md#sql-database-features-that-you-can-use-to-provide-business-continuity
+[storage-outage]: /azure/storage/storage-disaster-recovery-guidance.md
+[tm-configure-failover]: /azure/traffic-manager/traffic-manager-configure-failover-routing-method.md
+[tm-monitoring]: /azure/traffic-manager/traffic-manager-monitoring.md
+[tm-ps]: https://msdn.microsoft.com/library/mt125941.aspx
+[tm-routing]: /azure/traffic-manager/traffic-manager-routing-methods.md
+[tm-sla]: https://azure.microsoft.com/support/legal/sla/traffic-manager/v1_0/
+[traffic-manager]: https://azure.microsoft.com/services/traffic-manager/

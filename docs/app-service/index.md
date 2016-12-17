@@ -20,7 +20,7 @@ ms.author: mwasson
 ---
 # Web application architectures for Azure App Service
 
-[!INCLUDE [pnp-RA-branding](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 Azure App Service is a fully managed cloud service for hosting web applications, mobile app back ends, and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a data tier, cache, and CDN. Other considerations include deployment, diagnostics, monitoring, and multi-region deployments for high availability.
 

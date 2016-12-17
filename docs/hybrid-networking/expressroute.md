@@ -20,12 +20,12 @@ ms.author: telmos
 ---
 # Implementing a hybrid network architecture with Azure ExpressRoute
 
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article describes best practices for connecting an on-premises network to virtual networks on Azure using [Azure ExpressRoute][expressroute-introduction]. ExpressRoute connections are made using a private, dedicated connection through a third-party connectivity provider. The private connection extends your on-premises network into Azure, providing access to your own IaaS infrastructure in Azure, public endpoints used in PaaS services, and Office365 SaaS services. This article focuses on using ExpressRoute to connect to a single Azure virtual network (VNet).
 
 > [!NOTE]
-> Azure has two different deployment models: [Resource Manager](../../azure-resource-manager/resource-group-overview.md) and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
+> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview.md) and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
 > 
 > 
 
@@ -174,7 +174,7 @@ ExpressRoute circuits provide a high bandwidth path between networks. Generally,
 
 ExpressRoute offers two [pricing plans][expressroute-pricing] to customers, a metered plan and an unlimited data plan. Charges vary according to circuit bandwidth. Available bandwidth will likely vary from provider to provider. Use the `Get-AzureRmExpressRouteServiceProvider` cmdlet to see the providers available in your region and the bandwidths that they offer.
  
-A single ExpressRoute circuit can support a certain number of peerings and VNet links. See [ExpressRoute limits](../../azure-subscription-service-limits.md) for more information.
+A single ExpressRoute circuit can support a certain number of peerings and VNet links. See [ExpressRoute limits](/azure/azure-subscription-service-limits) for more information.
 
 For an extra charge, the ExpressRoute Premium add-on provides some additional capability:
 
@@ -296,23 +296,23 @@ If you have an existing on-premises infrastructure already configured with a sui
 * See [Implementing a highly available hybrid network architecture][highly-available-network-architecture] for information about increasing the availability of a hybrid network based on ExpressRoute by failing over to a VPN connection.
 
 <!-- links -->
-[expressroute-technical-overview]: ../../expressroute/expressroute-introduction.md
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
-[azure-powershell]: ../../powershell-azure-resource-manager.md
-[expressroute-prereqs]: ../../expressroute/expressroute-prerequisites.md
-[configure-expressroute-routing]: ../../expressroute/expressroute-howto-routing-arm.md
+[expressroute-technical-overview]: /azure/expressroute/expressroute-introduction.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[azure-powershell]: /azure/powershell-azure-resource-manager
+[expressroute-prereqs]: /azure/expressroute/expressroute-prerequisites.md
+[configure-expressroute-routing]: /azure/expressroute/expressroute-howto-routing-arm.md
 [sla-for-expressroute]: https://azure.microsoft.com/support/legal/sla/expressroute/v1_0/
-[link-vnet-to-expressroute]: ../../expressroute/expressroute-howto-linkvnet-arm.md
-[ExpressRoute-provisioning]: ../../expressroute/expressroute-workflows.md
-[expressroute-introduction]: ../../expressroute/expressroute-introduction.md
-[expressroute-peering]: ../../expressroute/expressroute-circuit-peerings.md
+[link-vnet-to-expressroute]: /azure/expressroute/expressroute-howto-linkvnet-arm.md
+[ExpressRoute-provisioning]: /azure/expressroute/expressroute-workflows.md
+[expressroute-introduction]: /azure/expressroute/expressroute-introduction.md
+[expressroute-peering]: /azure/expressroute/expressroute-circuit-peerings.md
 [expressroute-pricing]: https://azure.microsoft.com/pricing/details/expressroute/
-[expressroute-limits]: ../../azure-subscription-service-limits.md#networking-limits
+[expressroute-limits]: /azure/azure-subscription-service-limits.md#networking-limits
 [sample-script]: #sample-solution-script
 [azurect]: https://github.com/Azure/NetworkMonitoring/tree/master/AzureCT
 [forced-tuneling]: ./secure-vnet-hybrid.md
 [highly-available-network-architecture]: ./expressroute-vpn-failover.md
-[arm-templates]: ../../resource-group-authoring-templates.md
+[arm-templates]: /azure/resource-group-authoring-templates.md
 [naming-conventions]: ./guidance-naming-conventions.md
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-er/deploy-reference-architecture.sh

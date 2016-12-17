@@ -19,7 +19,7 @@ ms.author: telmos
 
 ---
 # Implementing a highly available hybrid network architecture
-[!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article describes how to connect an on-premises network to an Azure virtual network (VNet) using ExpressRoute, with a site-to-site virtual private network (VPN) as a failover connection. 
 
@@ -29,7 +29,7 @@ Note that if the ExpressRoute circuit is unavailable, the VPN route will only ha
 
 
 > [!NOTE]
-> Azure has two different deployment models: [Resource Manager](../../azure-resource-manager/resource-group-overview.md) and classic. This blueprint uses Resource Manager, which Microsoft recommends for new deployments.
+> Azure has two different deployment models: [Resource Manager](/azure/azure-resource-manager/resource-group-overview.md) and classic. This blueprint uses Resource Manager, which Microsoft recommends for new deployments.
 > 
 > 
 
@@ -154,18 +154,18 @@ If you have an existing on-premises infrastructure already configured with a sui
 
 <!-- links -->
 
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
-[vpn-appliance]: ../../vpn-gateway/vpn-gateway-about-vpn-devices.md
-[azure-vpn-gateway]: ../../vpn-gateway/vpn-gateway-about-vpngateways.md
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[vpn-appliance]: /azure/vpn-gateway/vpn-gateway-about-vpn-devices.md
+[azure-vpn-gateway]: /azure/vpn-gateway/vpn-gateway-about-vpngateways.md
 [connect-to-an-Azure-vnet]: https://technet.microsoft.com/library/dn786406.aspx
-[azure-network-security-group]: ../../virtual-network/virtual-networks-nsg.md
-[getting-started-with-azure-security]: ./../../security/azure-security-getting-started.md
-[expressroute-prereq]: ../../expressroute/expressroute-prerequisites.md
+[azure-network-security-group]: /azure/virtual-network/virtual-networks-nsg.md
+[getting-started-with-azure-security]: .//azure/security/azure-security-getting-started.md
+[expressroute-prereq]: /azure/expressroute/expressroute-prerequisites.md
 [implementing-expressroute]: ./expressroute.md
 [implementing-vpn]: ./vpn.md
 [guidance-expressroute]: ./expressroute.md
 [guidance-vpn]: ./vpn.md
-[best-practices-security]: ../../guidance/best-practices-network-security.md
+[best-practices-security]: /azure/guidance/best-practices-network-security.md
 [solution-script]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/Deploy-ReferenceArchitecture.ps1
 [solution-script-bash]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/deploy-reference-architecture.sh
 [vnet-parameters]: https://github.com/mspnp/reference-architectures/tree/master/guidance-hybrid-network-vpn-er/parameters/virtualNetwork.parameters.json

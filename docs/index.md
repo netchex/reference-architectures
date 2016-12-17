@@ -20,7 +20,7 @@ ms.author: christb
 ---
 
 # Azure Reference Architectures
-[!INCLUDE [pnp-header](../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-header](_includes/header.md)]
 
 *This content is in active development. It is useful today, so we are making it available for preview. We value your feedback.*
 

@@ -19,7 +19,7 @@ ms.author: mwasson
 
 ---
 # Improving scalability in a web application on Azure
-[!INCLUDE [pnp-RA-branding](../../../includes/guidance-pnp-header-include.md)]
+[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article shows a recommended architecture for improving scalability and performance in a web application running on Microsoft Azure. The architecture builds on [Basic web application architecture in Azure][basic-web-app]. The recommendations and considerations from that article apply to this architecture as well. 
 
@@ -127,33 +127,33 @@ For higher availability, deploy the application in more than one region and use 
 
 <!-- links -->
 
-[api-guidance]: ../../guidance/best-practices-api-design.md
-[app-service-security]: ../../app-service-web/web-sites-security.md
-[app-service-web-app]: ../../app-service-web/app-service-web-overview.md
-[app-service-api-app]: ../../app-service-api/app-service-api-apps-why-best-platform.md
-[app-service-pricing]: https://azure.microsoft.com/en-us/pricing/details/app-service/
-[azure-cdn]: https://azure.microsoft.com/en-us/services/cdn/
-[azure-redis]: https://azure.microsoft.com/en-us/services/cache/
-[azure-search]: https://azure.microsoft.com/en-us/documentation/services/search/
-[azure-search-scaling]: ../../search/search-capacity-planning.md
-[background-jobs]: ../../guidance/best-practices-background-jobs.md
+[api-guidance]: /azure/guidance/best-practices-api-design
+[app-service-security]: /azure/app-service-web/web-sites-security
+[app-service-web-app]: /azure/app-service-web/app-service-web-overview
+[app-service-api-app]: /azure/app-service-api/app-service-api-apps-why-best-platform
+[app-service-pricing]: https://azure.microsoft.com/pricing/details/app-service/
+[azure-cdn]: https://azure.microsoft.com/services/cdn/
+[azure-redis]: https://azure.microsoft.com/services/cache/
+[azure-search]: https://azure.microsoft.com/documentation/services/search/
+[azure-search-scaling]: /azure/search/search-capacity-planning
+[background-jobs]: /azure/guidance/best-practices-background-jobs
 [basic-web-app]: basic-web-app.md
 [basic-web-app-scalability]: basic-web-app.md#scalability-considerations
-[caching-guidance]: ../../guidance/best-practices-caching.md
-[cdn-app-service]: ../../app-service-web/cdn-websites-with-cdn.md
-[cdn-storage-account]: ../../cdn/cdn-create-a-storage-account-with-cdn.md
-[cdn-guidance]: ../../guidance/best-practices-cdn.md
-[cors]: ../../app-service-api/app-service-api-cors-consume-javascript.md
-[documentdb]: https://azure.microsoft.com/en-us/documentation/services/documentdb/
-[polyglot-storage]: https://github.com/mspnp/azure-guidance/blob/master/Polyglot-Solutions.md
-[queue-storage]: ../../storage/storage-dotnet-how-to-use-queues.md
-[queues-compared]: ../../service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted.md
-[resource-group]: ../../azure-resource-manager/resource-group-overview.md#resource-groups
-[sql-db]: https://azure.microsoft.com/en-us/documentation/services/sql-database/
-[sql-elastic]: ../../sql-database/sql-database-elastic-scale-introduction.md
-[sql-encryption]: https://msdn.microsoft.com/en-us/library/dn948096.aspx
-[tm]: https://azure.microsoft.com/en-us/services/traffic-manager/
+[caching-guidance]: /azure/guidance/best-practices-caching
+[cdn-app-service]: /azure/app-service-web/cdn-websites-with-cdn
+[cdn-storage-account]: /azure/cdn/cdn-create-a-storage-account-with-cdn
+[cdn-guidance]: /azure/guidance/best-practices-cdn
+[cors]: /azure/app-service-api/app-service-api-cors-consume-javascript
+[documentdb]: https://azure.microsoft.com/documentation/services/documentdb/
+[polyglot-storage]: https://github.com/mspnp/azure-guidance/blob/master/Polyglot-Solutions
+[queue-storage]: /azure/storage/storage-dotnet-how-to-use-queues
+[queues-compared]: /azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
+[resource-group]: /azure/azure-resource-manager/resource-group-overview.md#resource-groups
+[sql-db]: https://azure.microsoft.com/documentation/services/sql-database/
+[sql-elastic]: /azure/sql-database/sql-database-elastic-scale-introduction
+[sql-encryption]: https://msdn.microsoft.com/library/dn948096.aspx
+[tm]: https://azure.microsoft.com/services/traffic-manager/
 [web-app-multi-region]: ./multi-region-web-app.md
-[webjobs-guidance]: ../../guidance/best-practices-background-jobs.md
-[webjobs]: ../../app-service/app-service-webjobs-readme.md
+[webjobs-guidance]: /azure/guidance/best-practices-background-jobs
+[webjobs]: /azure/app-service/app-service-webjobs-readme
 [0]: ../media/blueprints/paas-web-scalability.png "Web application in Azure with improved scalability"

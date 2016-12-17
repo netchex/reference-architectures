@@ -20,7 +20,7 @@ ms.author: mwasson
 ---
 # Running Windows VMs for an N-tier architecture on Azure
 
-> [!INCLUDE [pnp-header](../../../includes/guidance-pnp-header-include.md)]
+> [!INCLUDE [pnp-branding](../_includes/header.md)]
 > 
 > [!div class="op_single_selector"]
 > * [Running Linux VMs for an N-tier architecture on Azure](linux-n-tier.md)
@@ -194,42 +194,42 @@ To achieve high availability for this reference architecture, deploy to multiple
 <!-- links -->
 
 [arm-templates]: https://azure.microsoft.com/documentation/articles/resource-group-authoring-templates/
-[azure-administration]: ../../automation/automation-intro.md
-[azure-audit-logs]: ../../resource-group-audit.md
-[azure-availability-sets]: ../../virtual-machines/virtual-machines-windows-manage-availability.md#configure-each-application-tier-into-separate-availability-sets
-[azure-cli]: ../../virtual-machines-command-line-tools.md
+[azure-administration]: /azure/automation/automation-intro.md
+[azure-audit-logs]: /azure/resource-group-audit.md
+[azure-availability-sets]: /azure/virtual-machines/virtual-machines-windows-manage-availability.md#configure-each-application-tier-into-separate-availability-sets
+[azure-cli]: /azure/virtual-machines-command-line-tools.md
 [azure-key-vault]: https://azure.microsoft.com/services/key-vault.md
-[azure-load-balancer]: ../../load-balancer/load-balancer-overview.md
+[azure-load-balancer]: /azure/load-balancer/load-balancer-overview.md
 [bastion host]: https://en.wikipedia.org/wiki/Bastion_host
 [cidr]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
 [chef]: https://www.chef.io/solutions/azure/
 [dmz]: secure-vnet-dmz.md
 [github-folder]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-n-tier-sql
-[lb-external-create]: ../../load-balancer/load-balancer-get-started-internet-portal.md
-[lb-internal-create]: ../../load-balancer/load-balancer-get-started-ilb-arm-portal.md
-[load-balancer-external]: ../../load-balancer/load-balancer-internet-overview.md
-[load-balancer-internal]: ../../load-balancer/load-balancer-internal-overview.md
+[lb-external-create]: /azure/load-balancer/load-balancer-get-started-internet-portal.md
+[lb-internal-create]: /azure/load-balancer/load-balancer-get-started-ilb-arm-portal.md
+[load-balancer-external]: /azure/load-balancer/load-balancer-internet-overview.md
+[load-balancer-internal]: /azure/load-balancer/load-balancer-internal-overview.md
 [multi-dc]: windows-multi-region.md
 [multi-vm]: multi-vm.md
 [n-tier]: windows-n-tier.md
 [naming conventions]: guidance-naming-conventions.md
-[nsg]: ../../virtual-network/virtual-networks-nsg.md
-[operations-management-suite]: https://www.microsoft.com/en-us/server-cloud/operations-management-suite/overview.aspx
-[plan-network]: ../../virtual-network/virtual-network-vnet-plan-design-arm.md
+[nsg]: /azure/virtual-network/virtual-networks-nsg.md
+[operations-management-suite]: https://www.microsoft.com/server-cloud/operations-management-suite/overview.aspx
+[plan-network]: /azure/virtual-network/virtual-network-vnet-plan-design-arm.md
 [private-ip-space]: https://en.wikipedia.org/wiki/Private_network#Private_IPv4_address_spaces
-[public IP address]: ../../virtual-network/virtual-network-ip-addresses-overview-arm.md
+[public IP address]: /azure/virtual-network/virtual-network-ip-addresses-overview-arm.md
 [puppet]: https://puppetlabs.com/blog/managing-azure-virtual-machines-puppet
-[resource-manager-overview]: ../../azure-resource-manager/resource-group-overview.md
-[sql-alwayson]: https://msdn.microsoft.com/en-us/library/hh510230.aspx
-[sql-alwayson-force-failover]: https://msdn.microsoft.com/en-us/library/ff877957.aspx
-[sql-alwayson-getting-started]: https://msdn.microsoft.com/en-us/library/gg509118.aspx
+[resource-manager-overview]: /azure/azure-resource-manager/resource-group-overview.md
+[sql-alwayson]: https://msdn.microsoft.com/library/hh510230.aspx
+[sql-alwayson-force-failover]: https://msdn.microsoft.com/library/ff877957.aspx
+[sql-alwayson-getting-started]: https://msdn.microsoft.com/library/gg509118.aspx
 [sql-alwayson-ilb]: https://blogs.msdn.microsoft.com/igorpag/2016/01/25/configure-an-ilb-listener-for-sql-server-alwayson-availability-groups-in-azure-arm/
-[sql-alwayson-listeners]: https://msdn.microsoft.com/en-us/library/hh213417.aspx
-[sql-alwayson-read-only-routing]: https://technet.microsoft.com/en-us/library/hh213417.aspx#ConnectToSecondary
-[sql-keyvault]: ../../virtual-machines/virtual-machines-windows-ps-sql-keyvault.md
-[vm-planned-maintenance]: ../../virtual-machines/virtual-machines-windows-planned-maintenance.md
-[vm-sla]: https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines
-[vnet faq]: ../../virtual-network/virtual-networks-faq.md
+[sql-alwayson-listeners]: https://msdn.microsoft.com/library/hh213417.aspx
+[sql-alwayson-read-only-routing]: https://technet.microsoft.com/library/hh213417.aspx#ConnectToSecondary
+[sql-keyvault]: /azure/virtual-machines/virtual-machines-windows-ps-sql-keyvault.md
+[vm-planned-maintenance]: /azure/virtual-machines/virtual-machines-windows-planned-maintenance.md
+[vm-sla]: https://azure.microsoft.com/support/legal/sla/virtual-machines
+[vnet faq]: /azure/virtual-network/virtual-networks-faq.md
 [wsfc-whats-new]: https://technet.microsoft.com/windows-server-docs/failover-clustering/whats-new-in-failover-clustering
 [Nagios]: https://www.nagios.org/
 [Zabbix]: http://www.zabbix.com/
