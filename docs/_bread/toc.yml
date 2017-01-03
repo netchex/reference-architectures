@@ -9,3 +9,22 @@
     - name: Reference Architectures
       tocHref: /azure/architecture
       topicHref: /azure/architecture/index
+      items:
+      - name: App Service
+        tocHref: /azure/architecture/app-service
+        topicHref: /azure/architecture/app-service/index
+      - name: Virtual Machines (Windows)
+        tocHref: /azure/architecture/virtual-machines-windows
+        topicHref: /azure/architecture/virtual-machines-windows/index
+      - name: Virtual Machines (Linux)
+        tocHref: /azure/architecture/virtual-machines-linux
+        topicHref: /azure/architecture/virtual-machines-linux/index
+      - name: Identity
+        tocHref: /azure/architecture/identity
+        topicHref: /azure/architecture/identity/index
+      - name: Hybrid Networking
+        tocHref: /azure/architecture/hybrid-networking
+        topicHref: /azure/architecture/hybrid-networking/index
+      - name: DMZ
+        tocHref: /azure/architecture/dmz
+        topicHref: /azure/architecture/dmz/index
