@@ -1,30 +1,30 @@
 - name: Azure
   tocHref: /azure/
-  topicHref: /azure/index
+  topicHref: /azure
   items:
   - name: Guidance
     tocHref: /azure/guidance/
-    topicHref: /azure/guidance/index
+    topicHref: /azure/guidance
     items:
     - name: Reference Architectures
       tocHref: /azure/architecture
-      topicHref: /azure/architecture/index
+      topicHref: /azure/architecture
       items:
       - name: App Service
         tocHref: /azure/architecture/app-service
-        topicHref: /azure/architecture/app-service/index
+        topicHref: /azure/architecture/app-service
       - name: Virtual Machines (Windows)
         tocHref: /azure/architecture/virtual-machines-windows
-        topicHref: /azure/architecture/virtual-machines-windows/index
+        topicHref: /azure/architecture/virtual-machines-windows
       - name: Virtual Machines (Linux)
         tocHref: /azure/architecture/virtual-machines-linux
-        topicHref: /azure/architecture/virtual-machines-linux/index
+        topicHref: /azure/architecture/virtual-machines-linux
       - name: Identity
         tocHref: /azure/architecture/identity
-        topicHref: /azure/architecture/identity/index
+        topicHref: /azure/architecture/identity
       - name: Hybrid Networking
         tocHref: /azure/architecture/hybrid-networking
-        topicHref: /azure/architecture/hybrid-networking/index
+        topicHref: /azure/architecture/hybrid-networking
       - name: DMZ
         tocHref: /azure/architecture/dmz
-        topicHref: /azure/architecture/dmz/index
+        topicHref: /azure/architecture/dmz
