@@ -1,5 +1,5 @@
 ---
-title: Web application referene architectures | Microsoft Docs
+title: App Service | Reference Architectures | Azure | Microsoft Docs
 description: Recommended architectures for a web applications running in Microsoft Azure.
 services: app-service,app-service\web,sql-database
 documentationcenter: na
@@ -7,6 +7,8 @@ author: MikeWasson
 manager: christb
 editor: ''
 tags: ''
+layout: HubPage
+hide_bc: true
 
 ms.assetid: c7022bbb-b2fd-43f4-a557-6b511b79dd10
 ms.service: guidance
@@ -18,50 +20,74 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-# Azure App Service
+<div id="main" class="siteHome">
+    <div class="container">
 
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
-Azure App Service is a fully managed cloud service for hosting web applications, mobile app back ends, and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a data tier, cache, and CDN. Other considerations include deployment, diagnostics, monitoring, and multi-region deployments for high availability.
-
-The patterns & practices group has created a set of reference architectures to address these scenarios. Each reference architecture includes:
-
-* An architecture diagram, showing the components that make up the architecture.
-* Recommendations and best practices.
-* Considerations for availability, security, scalability, and manageability.
-
-This article gives a summary of each reference architecture, and helps you to decide which solution will best meet your needs.
-
-## Basic web application
-This architecture describes a basic web application that uses Azure SQL Database for the data tier and Azure Active Directory for authentication.  
-
-![](../media/blueprints/paas-basic-web-simplified.png)
-
-This architecture is a good starting point for a traditional web application that works with relational data. However, it has some limitations in terms of scalability and high availability, that are addressed in the next two architectures.   
-
-For detailed information about this architecture, see [Basic web application](basic-web-app.md).
-
-## Web application architecture for scalability
-This architecture adds some components that are designed to improve your application's performance under load:
-
-* Separate web API and WebJob to perform queued tasks.
-* Azure Redis Cache to cache semi-static data or session state.
-* Azure CDN to cache static content.
-* Multiple data stores, including relational and document-oriented databases.
-* Azure Search for storing searchable indexes. 
-
-![](../media/blueprints/paas-web-scalability-simplified.png)
-
-For detailed information about this architecture, see [Web application architecture for scalability](scalable-web-app.md).
-
-## Web application architecture for high availability
-This architecture is deployed to two regions to achieve higher availability, using Azure Traffic Manager to route Internet requests to the application. 
-
-During normal operations, Traffic Manager routes requests to the primary region. If the application running that region becomes unavailable, Traffic Manager fails over to the secondary region.
-
-The data stores are geo-replicated to the secondary region.
-
-![](../media/blueprints/paas-web-multiregion-simplified.png)
-
-For detailed information about this architecture, see [Web application architecture for high availability](multi-region-web-app.md).
-
+<ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
+    <li class="fullSpan">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie orci ut auctor porta. Aenean rhoncus eros nec urna eleifend bibendum. Vestibulum pulvinar ipsum bibendum sapien ullamcorper porttitor. Sed cursus et tellus ut semper. Integer suscipit odio et pellentesque vestibulum. Phasellus et velit sit amet magna maximus laoreet. Nulla feugiat commodo tincidunt. Sed non elementum ex, a tempus quam. In mattis auctor mauris, sed finibus tortor scelerisque laoreet. Nulla facilisi. Mauris tempor a mauris et sagittis. Cras in diam ac enim fermentum iaculis vel at purus. Nam sed fermentum nulla, et tincidunt massa.</p>
+        </div>
+    </li>
+    <li>
+        <a href="./basic-web-app">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
+                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Basic Web App</h3>
+                            <p>A basic web application using Azure SQL Database.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833077">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
+                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Scalable</h3>
+                            <p>Compile and build your source code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://go.microsoft.com/fwlink/?linkid=833078">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
+                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Multi-region</h3>
+                            <p>Investigate and fix problems with your code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    </ul>
+</div>
+</div>
