@@ -65,7 +65,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/azure/bread/toc.json",
+      "breadcrumb_path": "/azure/architecture/bread/toc.json",
       "brand": "azure",
       "searchScope": ["Azure"]
     },
