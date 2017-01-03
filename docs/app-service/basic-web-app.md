@@ -7,6 +7,7 @@ author: MikeWasson
 manager: roshar
 editor: ''
 tags: ''
+breadcrumb_path: '/azure/architecture/bread/toc.json'
 
 ms.assetid: 12c8df2b-5693-4795-966f-533b54849799
 ms.service: guidance
