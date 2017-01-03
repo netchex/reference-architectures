@@ -8,7 +8,6 @@ manager: christb
 editor: ''
 tags: ''
 layout: HubPage
-hide_bc: true
 
 ms.assetid: c7022bbb-b2fd-43f4-a557-6b511b79dd10
 ms.service: guidance
@@ -32,7 +31,7 @@ ms.author: mwasson
         </div>
     </li>
     <li>
-        <a href="./basic-web-app">
+        <a href="./basic-web-app.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

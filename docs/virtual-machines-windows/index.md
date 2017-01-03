@@ -8,7 +8,6 @@ manager: christb
 editor: ''
 tags: ''
 layout: HubPage
-hide_bc: true
 
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance
@@ -32,7 +31,7 @@ ms.author: telmosampaio
         </div>
     </li>
     <li>
-        <a href="./single-vm">
+        <a href="./single-vm.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
