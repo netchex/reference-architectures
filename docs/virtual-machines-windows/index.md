@@ -27,6 +27,7 @@ ms.author: telmosampaio
 <ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
     <li class="fullSpan">
         <div class="container">
+        <h1>Running VM workloads</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie orci ut auctor porta. Aenean rhoncus eros nec urna eleifend bibendum. Vestibulum pulvinar ipsum bibendum sapien ullamcorper porttitor. Sed cursus et tellus ut semper. Integer suscipit odio et pellentesque vestibulum. Phasellus et velit sit amet magna maximus laoreet. Nulla feugiat commodo tincidunt. Sed non elementum ex, a tempus quam. In mattis auctor mauris, sed finibus tortor scelerisque laoreet. Nulla facilisi. Mauris tempor a mauris et sagittis. Cras in diam ac enim fermentum iaculis vel at purus. Nam sed fermentum nulla, et tincidunt massa.</p>
         </div>
     </li>
@@ -36,13 +37,12 @@ ms.author: telmosampaio
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/vm.svg&quot;);">
-                                <img data-scaleimage="./images/vm.svg" src="images/vm.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/single-vm.svg');">
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Single VM</h3>
-                            <p>Lipsum</p>
+                            <p>Baseline recommendations for running any Windows VM in Azure.</p>
                         </div>
                     </div>
                 </div>
@@ -50,18 +50,17 @@ ms.author: telmosampaio
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833077">
+        <a href="./multi-vm.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/vm.svg&quot;);">
-                                <img data-scaleimage="./images/vm.svg" src="images/vm.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-vm.svg');">
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Load-balanced VMs</h3>
-                            <p>Compile and build your source code.</p>
+                            <p>For higher availability, run multiple VMs behind a load balancer.</p>
                         </div>
                     </div>
                 </div>
@@ -69,18 +68,17 @@ ms.author: telmosampaio
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833078">
+        <a href="./n-tier.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/vm.svg&quot;);">
-                                <img data-scaleimage="./images/vm.svg" src="images/vm.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/n-tier.svg');">
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>N-tier</h3>
-                            <p>Investigate and fix problems with your code.</p>
+                            <h3>N-tier application</h3>
+                            <p>Within each tier, load balancers distribute traffic across multiple VMs. The database is replicated using SQL Server Always On Availability Groups.</p>
                         </div>
                     </div>
                 </div>
@@ -88,18 +86,17 @@ ms.author: telmosampaio
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833078">
+        <a href="multi-region-application.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/vm.svg&quot;);">
-                                <img data-scaleimage="./images/vm.svg" src="images/vm.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region.svg');">
                             </div>
                         </div>
                         <div class="cardText">
                             <h3>Multi-region application</h3>
-                            <p>Investigate and fix problems with your code.</p>
+                            <p>failover yo!</p>
                         </div>
                     </div>
                 </div>
