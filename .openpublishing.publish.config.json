@@ -26,8 +26,8 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "url": "https://github.com/mspnp/templates.docs.msft",
+      "branch": "experiment",
       "branch_mapping": {}
     }
   ],

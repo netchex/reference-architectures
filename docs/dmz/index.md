@@ -7,6 +7,7 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
+layout: ContentPage
 
 ms.assetid: 879e0dcb-0485-4388-a10b-9a84e64c0055
 ms.service: guidance

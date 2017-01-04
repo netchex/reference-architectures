@@ -7,7 +7,8 @@ author: MikeWasson
 manager: christb
 editor: ''
 tags: ''
-layout: HubPage
+layout: RefArchSeriesPage
+series_title: Azure App Service
 
 ms.assetid: c7022bbb-b2fd-43f4-a557-6b511b79dd10
 ms.service: guidance
@@ -19,10 +20,8 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-<section class="pnp">
-[!INCLUDE [pnp-branding](../_includes/header.md)]
-        <p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
-        <p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
+<p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
+<p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
 <ul class="cardsD refArchPanel">
     <li>
         <a href="./basic-web-app.md">
@@ -79,4 +78,3 @@ ms.author: mwasson
         </a>
     </li>
 </ul>
-</section>
