@@ -27,8 +27,19 @@ ms.author: mwasson
 <ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
     <li class="fullSpan">
         <div class="container">
-            <h1>Azure App Service reference architecturs</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie orci ut auctor porta. Aenean rhoncus eros nec urna eleifend bibendum. Vestibulum pulvinar ipsum bibendum sapien ullamcorper porttitor. Sed cursus et tellus ut semper. Integer suscipit odio et pellentesque vestibulum. Phasellus et velit sit amet magna maximus laoreet. Nulla feugiat commodo tincidunt. Sed non elementum ex, a tempus quam. In mattis auctor mauris, sed finibus tortor scelerisque laoreet. Nulla facilisi. Mauris tempor a mauris et sagittis. Cras in diam ac enim fermentum iaculis vel at purus. Nam sed fermentum nulla, et tincidunt massa.</p>
+            <h1>Azure App Service reference architectures</h1>
+
+<p>Azure App Service is a fully managed cloud service for hosting web applications, mobile app back ends, and web APIs. However, most applications require more than just a web tier. A typical application may use a data tier, cache, and CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
+
+<p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios. Each reference architecture includes:</p>
+
+<ul>
+<li>An architecture diagram, showing the components that make up the architecture.</li>
+<li>Recommendations and best practices.</li>
+<li>Considerations for availability, security, scalability, and manageability.</li>
+</ul>
+
+
         </div>
     </li>
     <li>
@@ -50,7 +61,7 @@ ms.author: mwasson
         </a>
     </li>
     <li>
-        <a href="./scalable-web-app">
+        <a href="./scalable-web-app.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
