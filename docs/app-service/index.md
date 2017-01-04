@@ -27,6 +27,7 @@ ms.author: mwasson
 <ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
     <li class="fullSpan">
         <div class="container">
+            <h1>Azure App Service reference architecturs</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie orci ut auctor porta. Aenean rhoncus eros nec urna eleifend bibendum. Vestibulum pulvinar ipsum bibendum sapien ullamcorper porttitor. Sed cursus et tellus ut semper. Integer suscipit odio et pellentesque vestibulum. Phasellus et velit sit amet magna maximus laoreet. Nulla feugiat commodo tincidunt. Sed non elementum ex, a tempus quam. In mattis auctor mauris, sed finibus tortor scelerisque laoreet. Nulla facilisi. Mauris tempor a mauris et sagittis. Cras in diam ac enim fermentum iaculis vel at purus. Nam sed fermentum nulla, et tincidunt massa.</p>
         </div>
     </li>
@@ -36,12 +37,11 @@ ms.author: mwasson
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
-                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/basic-web-app.svg');">
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Basic Web App</h3>
+                            <h3>Basic web app</h3>
                             <p>A basic web application using Azure SQL Database.</p>
                         </div>
                     </div>
@@ -50,18 +50,17 @@ ms.author: mwasson
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833077">
+        <a href="./scalable-web-app">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
-                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/scalable-web-app.svg');">
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Scalable</h3>
-                            <p>Compile and build your source code.</p>
+                            <h3>Scalable web app</h3>
+                            <p>Improves scalability by using cache, CDN, and queues for long-running tasks.</p>
                         </div>
                     </div>
                 </div>
@@ -69,18 +68,17 @@ ms.author: mwasson
         </a>
     </li>
     <li>
-        <a href="https://go.microsoft.com/fwlink/?linkid=833078">
+        <a href="./multi-region-web-app.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url(&quot;./images/azure-app-service.svg&quot;);">
-                                <img data-scaleimage="./images/azure-app-service.svg" src="images/azure-app-service.svg" alt="" style="display: none;">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region-web-app.svg');">
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Multi-region</h3>
-                            <p>Investigate and fix problems with your code.</p>
+                            <h3>Multi-region web app</h3>
+                            <p>Improves availability by running in multiple regions, using Traffic Manager to fail over if the primary region goes down.</p>
                         </div>
                     </div>
                 </div>
