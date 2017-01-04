@@ -19,19 +19,11 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-<div id="main" class="siteHome">
-    <div class="container">
-
+<section class="pnp">
 [!INCLUDE [pnp-branding](../_includes/header.md)]
-
-<ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
-    <li class="fullSpan">
-        <div class="container">
-            <h1>Azure App Service</h1>
-                <p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
-                <p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
-        </div>
-    </li>
+        <p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
+        <p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
+<ul class="cardsD refArchPanel">
     <li>
         <a href="./basic-web-app.md">
             <div class="cardSize">
@@ -86,6 +78,5 @@ ms.author: mwasson
             </div>
         </a>
     </li>
-    </ul>
-</div>
-</div>
+</ul>
+</section>

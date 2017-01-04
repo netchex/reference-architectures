@@ -1,30 +1,40 @@
 <style type="text/css">
-header.pnp {
-    background-color: #007bb8;
-    padding-top: 120px;
-    padding-right: 1em;
-    position: relative;
-    padding-left: 1em;
+section.pnp {
+    max-width: 1600px;
     margin: 0 auto;
-    width: calc(100% - 324px);
+    padding: 0 16px;
 }
-header.pnp span {
-    font-size: 2em;
+.pnp header {
+    background-color: #007bb8;
     color: white;
-    position: absolute;
-    bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+.pnp header div {
+    padding: 1em;
+}
+.pnp header h1 + span {
+    margin-top: -8px;
     display: block;
 }
-header.pnp a {
+.pnp header a {
     display: block;
-    position: absolute;
-    top: 1em;
+    margin-bottom: 40px;
 }
-header.pnp a img {
+.pnp header a img {
     width: 180px;
 }
+.refArchPanel {
+    display: flex;
+    flex-wrap: wrap;
+}
+.refArchPanel li {
+    flex: 0 1 33%
+}
 </style>
-<header class="pnp">
-<span>Azure Reference Architectures</span>
-<a href="http://aka.ms/mspnp" title="patterns & practices"><img src="../_includes/media/pnp-logo-night.svg" alt="patterns &amp; practices"></a>
+<header>
+    <div>
+        <a href="http://aka.ms/mspnp" title="patterns & practices"><img src="../_includes/media/pnp-logo-night.svg" alt="patterns &amp; practices"></a>
+        <h1>Azure App Service</h1>
+        <span>Azure Reference Architectures</span>
+    </div>
 </header>
