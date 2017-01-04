@@ -27,19 +27,9 @@ ms.author: mwasson
 <ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
     <li class="fullSpan">
         <div class="container">
-            <h1>Azure App Service reference architectures</h1>
-
-<p>Azure App Service is a fully managed cloud service for hosting web applications, mobile app back ends, and web APIs. However, most applications require more than just a web tier. A typical application may use a data tier, cache, and CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
-
-<p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios. Each reference architecture includes:</p>
-
-<ul>
-<li>An architecture diagram, showing the components that make up the architecture.</li>
-<li>Recommendations and best practices.</li>
-<li>Considerations for availability, security, scalability, and manageability.</li>
-</ul>
-
-
+            <h1>Azure App Service</h1>
+                <p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
+                <p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
         </div>
     </li>
     <li>
@@ -53,7 +43,7 @@ ms.author: mwasson
                         </div>
                         <div class="cardText">
                             <h3>Basic web app</h3>
-                            <p>A basic web application using Azure SQL Database.</p>
+                            <p>A basic web application using App Service plus Azure SQL Database.</p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +61,7 @@ ms.author: mwasson
                         </div>
                         <div class="cardText">
                             <h3>Scalable web app</h3>
-                            <p>Improves scalability by using cache, CDN, and queues for long-running tasks.</p>
+                            <p>Improves scalability by using Redis cache, CDN for static content, and WebJobs for long-running background tasks.</p>
                         </div>
                     </div>
                 </div>
