@@ -28,7 +28,9 @@ ms.author: telmosampaio
     <li class="fullSpan">
         <div class="container">
         <h1>Running VM workloads</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie orci ut auctor porta. Aenean rhoncus eros nec urna eleifend bibendum. Vestibulum pulvinar ipsum bibendum sapien ullamcorper porttitor. Sed cursus et tellus ut semper. Integer suscipit odio et pellentesque vestibulum. Phasellus et velit sit amet magna maximus laoreet. Nulla feugiat commodo tincidunt. Sed non elementum ex, a tempus quam. In mattis auctor mauris, sed finibus tortor scelerisque laoreet. Nulla facilisi. Mauris tempor a mauris et sagittis. Cras in diam ac enim fermentum iaculis vel at purus. Nam sed fermentum nulla, et tincidunt massa.</p>
+            <p>Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.</p>
+            <p>The patterns &amp; practices group has created a set of reference architectures to address these considerations.
+These reference architectures build on each other, starting from deploying a single VM, moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.</p>
         </div>
     </li>
     <li>
@@ -96,7 +98,7 @@ ms.author: telmosampaio
                         </div>
                         <div class="cardText">
                             <h3>Multi-region application</h3>
-                            <p>failover yo!</p>
+                            <p>An application deployed to a single region could become unavailable if an incident occurs within that region. For mission-critical applications, consider deploying to more than one region.</p>
                         </div>
                     </div>
                 </div>
