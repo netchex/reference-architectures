@@ -54,7 +54,7 @@ The patterns &amp; practices group has created a set of reference architectures 
                         </div>
                         <div class="cardText">
                             <h3>Site-to-site VPN</h3>
-                            <p>Azure VPN Gateway can be used to create a virtual private network (VPN) connection</p>
+                            <p>Azure VPN Gateway to create a virtual private network (VPN) connection</p>
                         </div>
                     </div>
                 </div>
