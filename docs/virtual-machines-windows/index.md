@@ -8,7 +8,7 @@ manager: christb
 editor: ''
 tags: ''
 layout: RefArchSeriesPage
-series_title: Virtual Machines (Windows)
+series_title: Run Windows VM workloads in Azure
 
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance

@@ -18,36 +18,15 @@ ms.date: 11/22/2016
 ms.author: mwasson
 
 ---
-# Running Windows VMs for an N-tier architecture on Azure
+# Running Windows VMs for an N-tier application on Azure
 
-> [!INCLUDE [pnp-branding](../_includes/header.md)]
-> 
-> [!div class="op_single_selector"]
-> * [Running Linux VMs for an N-tier architecture on Azure](../virtual-machines-linux/n-tier.md)
-> * [Running Windows VMs for an N-tier architecture on Azure](n-tier.md)
-> 
-> 
-
-This article outlines a set of proven practices for running Windows virtual machines (VMs) for an application with an N-tier architecture. It builds on the article [Running multiple VMs on Azure][multi-vm].
-
-> [!NOTE]
-> Azure has two different deployment models: [Resource Manager][resource-manager-overview] and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
-> 
-> 
-
-## Architecture diagram
-
-There are many ways to implement an N-tier architecture. For the most part, the differences shouldn't matter for the purposes of these recommendations. This article describes a typical 3-tier web application:
-
-* **Web tier.** Handles incoming HTTP requests. Responses are returned through this tier.
-* **Business tier.** Implements business processes and other functional logic for the system.
-* **Database tier.** Provides persistent data storage, using [SQL Server Always On Availability Groups][sql-alwayson] for high availability.
-
-> A Visio document that includes this architecture diagram is available for download from the [Microsoft download center][visio-download]. This diagram is on the "Compute - multi tier (Windows)" page.
-> 
-> 
+This reference architecture shows a set of proven practices for running Windows virtual machines (VMs) for an N-tier application architecture.
 
 ![[0]][0]
+
+## Architecture 
+
+This reference architecture builds on [Running multiple VMs on Azure][multi-vm]. There are many ways to implement an N-tier architecture. The diagram shows a typical 3-tier web application. 
 
 * **Availability sets.** Create an [availability set][azure-availability-sets] for each tier, and provision at least two VMs in each tier. This is required to reach the availability [SLA][vm-sla] for VMs.
 * **Subnets.** Create a separate subnet for each tier. Specify the address range and subnet mask using [CIDR] notation. 
@@ -57,6 +36,11 @@ There are many ways to implement an N-tier architecture. For the most part, the 
 * **NSGs.** Use [network security groups][nsg] (NSGs) to restrict network traffic within the VNet. For example, in the 3-tier architecture shown here, the database tier does not accept traffic from the web front end, only from the business tier and the management subnet.
 * **SQL Server Always On Availability Group.** Provides high availability at the data tier, by enabling replication and failover.
 * **Active Directory Domain Services (AD DS) Servers**. Prior to Windows Server 2016, SQL Server Always On Availability Groups must be joined to a domain. This is because Availability Groups depend on Windows Server Failover Cluster (WSFC) technology. Windows Server 2016 introduces the ability to create a Failover Cluster without Active Directory, in which case the AD DS servers are not required for this architecture. For more information, see [What's new in Failover Clustering in Windows Server 2016][wsfc-whats-new].
+
+> [!NOTE]
+> Azure has two different deployment models: [Resource Manager][resource-manager-overview] and classic. This article uses Resource Manager, which Microsoft recommends for new deployments.
+> 
+> 
 
 ## Recommendations
 
@@ -250,7 +234,7 @@ To achieve high availability for this reference architecture, deploy to multiple
 [datatier-parameters-linux]: https://github.com/mspnp/reference-architectures/tree/master/guidance-compute-n-tier/parameters/linux/dataTier.parameters.json
 [azure-powershell-download]: https://azure.microsoft.com/documentation/articles/powershell-install-configure/
 [visio-download]: http://download.microsoft.com/download/1/5/6/1569703C-0A82-4A9C-8334-F13D0DF2F472/RAs.vsdx
-[0]: ../media/blueprints/compute-n-tier.png "N-tier architecture using Microsoft Azure"
+[0]: ./images/n-tier-diagram.png "N-tier architecture using Microsoft Azure"
 [1]: ../media/blueprints/deploybutton.png 
 [2]: https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Freference-architectures%2Fmaster%2Fguidance-compute-n-tier-sql%2FvirtualNetwork.azuredeploy.json
 [3]: https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Freference-architectures%2Fmaster%2Fguidance-compute-n-tier-sql%2Fworkload.azuredeploy.json
