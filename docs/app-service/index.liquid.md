@@ -20,23 +20,16 @@ ms.author: mwasson
 
 series_title: Using Azure App Service
 columns: 3
-articles: [
-    {
-        id: 'basic-web-app',
-        title: 'Basic web app',
-        description: 'A basic web application using App Service plus Azure SQL Database.'
-    },
-    {
-        id: 'scalable-web-app',
-        title: 'Scalable web app',
-        description: 'Improves scalability by using Redis cache, CDN for static content, and WebJobs for long-running background tasks.'
-    },
-    {
-        id: 'mutli-region-web-app',
-        title: 'Multi-region web app',
-        description: 'Improves availability by running in multiple regions, using Traffic Manager to fail over if the primary region goes down.'
-    }
-]
+articles:
+  - id: basic-web-app
+    title: Basic web app
+    description: A basic web application using App Service plus Azure SQL Database.
+  - id: scalable-web-app
+    title: Scalable web app
+    description: Improves scalability by using Redis cache, CDN for static content, and WebJobs for long-running background tasks.
+  - id: mutli-region-web-app
+    title: Multi-region web app
+    description: Improves availability by running in multiple regions, using Traffic Manager to fail over if the primary region goes down.
 ---
 
 Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.

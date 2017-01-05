@@ -13,18 +13,11 @@ var inputFilePath = '../app-service/index.liquid.md';
 var outputFilePath = '../app-service/index.md'
 
 var content = fs.readFileSync(inputFilePath, 'utf8');
-// the file is both the template and the data
-var data = yamlFront.loadFront(content);
-var yml = Object.assign({}, data);
-// delete yml.articles
-delete yml.__content
+var yml = yamlFront.loadFront(content);
 
-var template_source = '---' + yamlFront.dump(yml) + '---' + data.__content;
-var template = engine.parse(template_source);
+var template = engine.parse(content);
 
-// console.dir(yamlFront.dump(yml)); // original yml <--
-
-engine.render(template, data)
+engine.render(template, yml)
     .then(function (html) {
         fs.writeFile(outputFilePath, html)
     });
