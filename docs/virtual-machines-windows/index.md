@@ -8,6 +8,7 @@ manager: christb
 editor: ''
 tags: ''
 layout: HubPage
+series_title: Virtual Machines (Windows)
 
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance
@@ -19,20 +20,12 @@ ms.date: 10/31/2016
 ms.author: telmosampaio
 
 ---
-<div id="main" class="siteHome">
-    <div class="container">
+Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.
 
-[!INCLUDE [pnp-branding](../_includes/header.md)]
-
-<ul class="cardsD panelContent singlePanelContent" style="display: flex; margin-top: 0px;">
-    <li class="fullSpan">
-        <div class="container">
-        <h1>Running VM workloads</h1>
-            <p>Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.</p>
-            <p>The patterns &amp; practices group has created a set of reference architectures to address these considerations.
+The patterns &amp; practices group has created a set of reference architectures to address these considerations.
 These reference architectures build on each other, starting from deploying a single VM, moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.</p>
-        </div>
-    </li>
+
+<ul class="cardsD refArchPanel">
     <li>
         <a href="./single-vm.md">
             <div class="cardSize">
@@ -105,7 +98,4 @@ These reference architectures build on each other, starting from deploying a sin
             </div>
         </a>
     </li>
-    </ul>
-</div>
-</div>
-
+</ul>
