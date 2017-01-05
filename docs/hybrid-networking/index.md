@@ -26,7 +26,7 @@ The patterns &amp; practices group has created a set of reference architectures 
 
 <ul class="cardsD refArchPanel">
     <li>
-        <a href="./basic-web-app.md">
+        <a href="./expressroute.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -44,7 +44,7 @@ The patterns &amp; practices group has created a set of reference architectures 
         </a>
     </li>
     <li>
-        <a href="./scalable-web-app.md">
+        <a href="./vpn.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -62,7 +62,7 @@ The patterns &amp; practices group has created a set of reference architectures 
         </a>
     </li>
     <li>
-        <a href="./multi-region-web-app.md">
+        <a href="./expressroute-vpn-failover.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
