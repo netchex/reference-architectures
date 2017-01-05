@@ -1,0 +1,20 @@
+<ul class="cardsD refArchPanel x{{ columns }}">{% for article in articles %}
+    <li>
+        <a href="./{{ article.id }}.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/{{ article.id }}.svg');">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>{{ article.title }}</h3>
+                            <p>{{ article.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>{% endfor %}
+</ul>

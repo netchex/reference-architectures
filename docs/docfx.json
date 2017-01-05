@@ -8,6 +8,8 @@
         ],
         "exclude": [         
           "**/obj/**",
+          "**/*.liquid.md",
+          "**/_build/**",
           "**/_includes/**",
           "**/_bread/**",
           "**/_themes/**"
