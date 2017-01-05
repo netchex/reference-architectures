@@ -7,7 +7,7 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
-layout: HubPage
+layout: RefArchSeriesPage
 series_title: Virtual Machines (Windows)
 
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
@@ -25,7 +25,7 @@ Running a virtual machine (VM) in Azure involves more moving parts than just the
 The patterns &amp; practices group has created a set of reference architectures to address these considerations.
 These reference architectures build on each other, starting from deploying a single VM, moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.</p>
 
-<ul class="cardsD refArchPanel">
+<ul class="cardsD refArchPanel x2">
     <li>
         <a href="./single-vm.md">
             <div class="cardSize">
