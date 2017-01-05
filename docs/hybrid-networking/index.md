@@ -20,7 +20,7 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-Many organizations have an existing on-premises infrastructure that they wish to integrate with Azure. This enables organizations to migrate existing applications to the cloud, and also to take advantage of the scalability, availability, security, and other enterprise features that Azure offers for new applications. The key part of this scenario is understanding how to establish a secure and robust network connection between your organization and Azure.
+Many organizations wish to integrate an existing on-premises infrastructure with Azure. A key part of this scenario is to establish a secure and robust network connection between the on-premises network and Azure.
 
 The patterns &amp; practices group has created a set of reference architectures to address these scenarios.
 
@@ -36,7 +36,7 @@ The patterns &amp; practices group has created a set of reference architectures 
                         </div>
                         <div class="cardText">
                             <h3>ExpressRoute</h3>
-                            <p>Lorem ipsum.</p>
+                            <p>ExpressRoute connections are made using a private, dedicated connection through a third-party provider.</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ The patterns &amp; practices group has created a set of reference architectures 
                         </div>
                         <div class="cardText">
                             <h3>Site-to-site VPN</h3>
-                            <p>Lorem ipsum.</p>
+                            <p>Azure VPN Gateway can be used to create a virtual private network (VPN) connection</p>
                         </div>
                     </div>
                 </div>
@@ -71,8 +71,8 @@ The patterns &amp; practices group has created a set of reference architectures 
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Hybrid with VPN fallback</h3>
-                            <p>Lorem ipsum.</p>
+                            <h3>ExpressRoute with VPN fallback</h3>
+                            <p>For mission critical application, consider using ExpressRoute with a VPN connection as a fallback.</p>
                         </div>
                     </div>
                 </div>

@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="247.6149"
-     inkscape:cy="2.436333"
+     inkscape:zoom="3.959798"
+     inkscape:cx="126.40238"
+     inkscape:cy="46.024991"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -104,44 +104,58 @@
        id="RMS_connector"
        transform="translate(142.84596,813.75764)" />
     <g
-       id="shape22-42"
-       v:mID="22"
-       v:groupContext="shape"
-       transform="matrix(1.2499987,0,0,1.2499987,214.63687,904.87978)">
-      <title
-         id="title11608">text10286</title>
-      <desc
-         id="desc11610">Azure Virtual Network</desc>
-      <v:textBlock
-         v:margins="rect(0,0,0,0)" />
-      <v:textRect
-         cx="38.4895"
-         cy="103.5"
-         width="76.98"
-         height="9" />
-      <rect
-         x="0"
-         y="99"
-         width="76.978897"
-         height="9"
-         class="st12"
-         id="rect11612"
-         style="fill:none;stroke:none;stroke-width:0.75;stroke-linecap:butt" />
-      <text
-         x="-0"
-         y="105.75"
-         class="st13"
-         v:langID="1033"
-         id="text11614"
-         style="font-size:7.50009584px;font-family:Arial;fill:#0090c6"><v:paragraph />
-<v:tabList />
-Azure Virtual Network</text>
+       transform="translate(142.84596,813.75764)"
+       id="paths">
+      <g
+         id="Access_control" />
+      <g
+         id="Azure_active_directory" />
+      <g
+         id="Generic_code" />
+      <g
+         id="Laptop" />
+      <g
+         id="Load_balancer" />
+      <g
+         id="Lock_x2C__protected" />
     </g>
+    <g
+       transform="translate(142.84596,813.75764)"
+       id="symbols" />
+    <g
+       transform="translate(142.84596,813.75764)"
+       id="slices" />
+    <g
+       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
+       id="Layer_1_1_">
+      <g
+         id="File_x2C__general-6">
+        <title
+           id="title5">Sheet.1071</title>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
+       id="Access_control-2" />
+    <g
+       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
+       id="Azure_active_directory-8" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#0090c6"
+       id="text11614"
+       v:langID="1033"
+       class="st13"
+       y="1039.8206"
+       x="257.2388"
+       sodipodi:linespacing="125%"><v:paragraph />
+<v:tabList />
+
+Azure Virtual Network</text>
     <g
        id="shape2-2"
        v:mID="2"
        v:groupContext="shape"
-       transform="matrix(1.788207,0,0,1.3249906,220.43404,882.81608)">
+       transform="matrix(1.788207,0,0,1.3249906,214.96281,882.47493)">
       <title
          id="title11510">rect4743</title>
       <rect
@@ -155,7 +169,7 @@ Azure Virtual Network</text>
     </g>
     <g
        id="group4-6"
-       transform="matrix(1.2499987,0,0,1.2499987,223.06508,800.60807)"
+       transform="matrix(1.2499987,0,0,1.2499987,217.59385,800.26692)"
        v:mID="4"
        v:groupContext="group">
       <title
@@ -232,7 +246,7 @@ Azure Virtual Network</text>
       </g>
     </g>
     <g
-       transform="matrix(0.79850972,0,0,0.79850972,185.23255,928.73609)"
+       transform="matrix(0.79850972,0,0,0.79850972,179.76132,928.39494)"
        id="Ibiza_Symbols">
       <g
          id="g6">
@@ -283,7 +297,7 @@ Azure Virtual Network</text>
     </g>
     <g
        id="g12829"
-       transform="matrix(0.79850972,0,0,0.79850972,185.23255,877.32841)">
+       transform="matrix(0.79850972,0,0,0.79850972,179.76132,876.98726)">
       <g
          id="g12831">
         <path
@@ -331,87 +345,62 @@ Azure Virtual Network</text>
         </g>
       </g>
     </g>
-    <g
-       id="g14031"
-       transform="translate(-14.837342,907.42724)">
-      <text
-         style="font-size:9.37510967px;font-family:Arial;fill:#0090c6"
-         id="text12792"
-         v:langID="1033"
-         class="st13"
-         y="129.63991"
-         x="30.18194">On-premises network<v:paragraph />
+    <text
+       x="54.73386"
+       y="1038.7463"
+       class="st13"
+       v:langID="1033"
+       id="text12792"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#0090c6"
+       sodipodi:linespacing="125%">On-premises network<v:paragraph />
 <v:tabList />
 </text>
-      <rect
-         y="13.280135"
-         x="29.007198"
-         height="105.14171"
-         width="92.514793"
-         id="rect11496"
-         style="fill:#000000;fill-opacity:0.07692309;stroke:#4c4c4c;stroke-width:0.61416751;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#000000;fill-opacity:0.07692309;stroke:#4c4c4c;stroke-width:0.61416751;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect11496"
+       width="92.514793"
+       height="105.14171"
+       x="8.6986303"
+       y="920.36627" />
+    <g
+       id="g12778"
+       transform="translate(-26.308568,901.08609)">
+      <path
+         style="fill:#000000;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m 65.764656,61.395884 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677111 c 0,0.69891 0.571836,1.334283 1.270746,1.334283 l 7.179712,0 c 0.762447,2.732103 -0.254149,3.113327 -4.828833,3.113327 l 0,1.461357 5.781892,0 4.256998,0 5.464206,0 0,-1.461357 c -4.574684,0 -5.019445,-0.381224 -4.256998,-3.113327 l 7.433864,0 c 0.69891,0 1.461358,-0.635373 1.461358,-1.334283 l 0,-14.677111 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724052 -20.14132,0 0,-13.724052 20.14132,0 0,0 z"
+         id="path11491" />
       <g
-         transform="translate(-6,-6)"
-         id="g12778">
+         id="g12774">
         <path
-           id="path11491"
-           d="m 65.764656,61.395884 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677111 c 0,0.69891 0.571836,1.334283 1.270746,1.334283 l 7.179712,0 c 0.762447,2.732103 -0.254149,3.113327 -4.828833,3.113327 l 0,1.461357 5.781892,0 4.256998,0 5.464206,0 0,-1.461357 c -4.574684,0 -5.019445,-0.381224 -4.256998,-3.113327 l 7.433864,0 c 0.69891,0 1.461358,-0.635373 1.461358,-1.334283 l 0,-14.677111 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724052 -20.14132,0 0,-13.724052 20.14132,0 0,0 z"
+           style="fill:#000000;fill-opacity:1"
            inkscape:connector-curvature="0"
-           style="fill:#000000;fill-opacity:1" />
-        <g
-           id="g12774">
-          <path
-             id="path8"
-             d="m 92.472783,36.394609 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677111 c 0,0.69891 0.571836,1.334283 1.270746,1.334283 l 7.179712,0 c 0.762447,2.732103 -0.254149,3.113327 -4.828833,3.113327 l 0,1.461357 5.781892,0 4.256998,0 5.464206,0 0,-1.461357 c -4.574684,0 -5.019445,-0.381224 -4.256998,-3.113327 l 7.433864,0 c 0.69891,0 1.461358,-0.635373 1.461358,-1.334283 l 0,-14.677111 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724052 -20.14132,0 0,-13.724052 20.14132,0 0,0 z"
-             inkscape:connector-curvature="0"
-             style="fill:#000000;fill-opacity:1" />
-          <path
-             id="path11493"
-             d="m 92.472783,86.39716 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677107 c 0,0.69891 0.571836,1.33429 1.270746,1.33429 l 7.179712,0 c 0.762447,2.7321 -0.254149,3.11332 -4.828833,3.11332 l 0,1.46136 5.781892,0 4.256998,0 5.464206,0 0,-1.46136 c -4.574684,0 -5.019445,-0.38122 -4.256998,-3.11332 l 7.433864,0 c 0.69891,0 1.461358,-0.63538 1.461358,-1.33429 l 0,-14.677107 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724056 -20.14132,0 0,-13.724056 20.14132,0 0,0 z"
-             inkscape:connector-curvature="0"
-             style="fill:#000000;fill-opacity:1" />
-        </g>
-      </g>
-      <g
-         transform="matrix(0.76688787,0,0,0.76688787,-46.161344,107.938)"
-         id="g13011">
+           d="m 92.472783,36.394609 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677111 c 0,0.69891 0.571836,1.334283 1.270746,1.334283 l 7.179712,0 c 0.762447,2.732103 -0.254149,3.113327 -4.828833,3.113327 l 0,1.461357 5.781892,0 4.256998,0 5.464206,0 0,-1.461357 c -4.574684,0 -5.019445,-0.381224 -4.256998,-3.113327 l 7.433864,0 c 0.69891,0 1.461358,-0.635373 1.461358,-1.334283 l 0,-14.677111 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724052 -20.14132,0 0,-13.724052 20.14132,0 0,0 z"
+           id="path8" />
         <path
-           id="path24"
-           d="m 204.98329,-53.469594 -35.2,0 c -1,0 -1.9,0.6 -1.9,1.4 l 0,7.1 c 0,0.8 0.8,1.4 1.9,1.4 l 35.2,0 c 1,0 1.9,-0.6 1.9,-1.4 l 0,-7.1 c 0,-0.7 -0.9,-1.4 -1.9,-1.4 z m -31.1,7 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z"
+           style="fill:#000000;fill-opacity:1"
            inkscape:connector-curvature="0"
-           style="clip-rule:evenodd;fill:#2a3282;fill-rule:evenodd" />
-        <polygon
-           id="polygon26"
-           points="61.2,37.2 54,30.2 29.4,30.2 22.2,37.2 "
-           style="clip-rule:evenodd;fill:#2a3282;fill-rule:evenodd"
-           transform="translate(145.68329,-93.669594)" />
+           d="m 92.472783,86.39716 -21.030841,0 c -0.69891,0 -1.270746,0.635373 -1.270746,1.334283 l 0,14.677107 c 0,0.69891 0.571836,1.33429 1.270746,1.33429 l 7.179712,0 c 0.762447,2.7321 -0.254149,3.11332 -4.828833,3.11332 l 0,1.46136 5.781892,0 4.256998,0 5.464206,0 0,-1.46136 c -4.574684,0 -5.019445,-0.38122 -4.256998,-3.11332 l 7.433864,0 c 0.69891,0 1.461358,-0.63538 1.461358,-1.33429 l 0,-14.677107 c 0,-0.69891 -0.762448,-1.334283 -1.461358,-1.334283 z m -0.381223,1.779044 0,13.724056 -20.14132,0 0,-13.724056 20.14132,0 0,0 z"
+           id="path11493" />
       </g>
     </g>
     <g
-       transform="translate(142.84596,813.75764)"
-       id="paths">
-      <g
-         id="Access_control" />
-      <g
-         id="Azure_active_directory" />
-      <g
-         id="Generic_code" />
-      <g
-         id="Laptop" />
-      <g
-         id="Load_balancer" />
-      <g
-         id="Lock_x2C__protected" />
+       id="g13011"
+       transform="matrix(0.76688787,0,0,0.76688787,-66.469912,1015.024)">
+      <path
+         style="clip-rule:evenodd;fill:#2a3282;fill-rule:evenodd"
+         inkscape:connector-curvature="0"
+         d="m 204.98329,-53.469594 -35.2,0 c -1,0 -1.9,0.6 -1.9,1.4 l 0,7.1 c 0,0.8 0.8,1.4 1.9,1.4 l 35.2,0 c 1,0 1.9,-0.6 1.9,-1.4 l 0,-7.1 c 0,-0.7 -0.9,-1.4 -1.9,-1.4 z m -31.1,7 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z m 9,0 c -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 0,1.1 -0.9,2 -2,2 z"
+         id="path24" />
+      <polygon
+         transform="translate(145.68329,-93.669594)"
+         style="clip-rule:evenodd;fill:#2a3282;fill-rule:evenodd"
+         points="29.4,30.2 22.2,37.2 61.2,37.2 54,30.2 "
+         id="polygon26" />
     </g>
-    <g
-       transform="translate(142.84596,813.75764)"
-       id="symbols" />
-    <g
-       transform="translate(142.84596,813.75764)"
-       id="slices" />
     <g
        id="g14808"
-       transform="matrix(0.57573593,0,0,0.57573593,78.8078,376.91991)">
+       transform="matrix(0.57573593,0,0,0.57573593,73.336574,376.57876)">
       <rect
          id="rect3"
          height="3.8"
@@ -451,61 +440,37 @@ Azure Virtual Network</text>
          style="fill:#7fba00"
          inkscape:connector-curvature="0" />
     </g>
+    <path
+       style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.42022079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 134.2431,953.01696 0,38.30663 -29.48479,-19.40644 z"
+       id="path13923"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path13927"
+       d="m 181.80202,953.01696 0,38.30663 29.48479,-19.40644 z"
+       style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.42022079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.12792897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 183.55938,980.58496 -50.1922,0 0,-16.82364 50.1922,0 z"
+       id="path13992"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#fffffc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="124.13711"
+       y="974.79974"
+       id="text14830"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan14832"
+         x="124.13711"
+         y="974.79974">ExpressRoute</tspan></text>
     <g
-       id="g14882"
-       transform="translate(0,-9.9492505)">
-      <g
-         style="fill:#77a7d3;fill-opacity:1"
-         transform="matrix(0.91804657,0,0,0.56221002,323.76085,1022.976)"
-         id="g14017">
-        <path
-           style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.42022079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -201.13868,-104.88329 0,68.135799 -32.11688,-34.518136 z"
-           id="path13923"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccc" />
-        <path
-           sodipodi:nodetypes="cccc"
-           inkscape:connector-curvature="0"
-           id="path13927"
-           d="m -149.33421,-104.88329 0,68.135799 32.11688,-34.518136 z"
-           style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.42022079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           style="fill:#77a7d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.12792897px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m -147.41997,-55.848247 -54.67283,0 0,-29.924109 54.67283,0 z"
-           id="path13992"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text14830"
-         y="985.09015"
-         x="118.70961"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="985.09015"
-           x="118.70961"
-           id="tspan14832"
-           sodipodi:role="line">ExpressRoute Circuit</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
-       id="Layer_1_1_">
-      <g
-         id="File_x2C__general-6">
-        <title
-           id="title5">Sheet.1071</title>
-      </g>
-    </g>
-    <g
-       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
-       id="Access_control-2" />
-    <g
-       transform="matrix(0.06125617,0,0,0.06125617,156.0456,906.89669)"
-       id="Azure_active_directory-8" />
-    <g
-       transform="matrix(0.06125617,0,0,0.06125617,210.59384,954.47536)"
+       transform="matrix(0.06125617,0,0,0.06125617,205.12261,954.13421)"
        id="Gateway">
       <path
          style="fill:#2a3282"
