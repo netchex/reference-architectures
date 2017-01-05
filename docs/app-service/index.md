@@ -20,8 +20,10 @@ ms.date: 10/26/2016
 ms.author: mwasson
 
 ---
-<p>Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.</p>
-<p>The patterns &amp; practices group has created a set of reference architectures to address these scenarios.</p>
+Azure App Service is a fully managed cloud service for hosting web applications and web APIs. However, most applications require more than just a web tier. For example, a typical application may use a database, cache, or CDN. Other considerations include deployment, diagnostics, and monitoring.
+
+The patterns &amp; practices group has created a set of reference architectures to address these scenarios.
+
 <ul class="cardsD refArchPanel">
     <li>
         <a href="./basic-web-app.md">

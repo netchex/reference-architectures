@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchSeriesPage
+series_title: Identity
 
 ms.assetid: 5448175d-d763-45ee-acd7-a714ad260876
 ms.service: guidance

@@ -7,7 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
-layout: ContentPage
+layout: RefArchSeriesPage
+series_title: Protect the cloud boundary
 
 ms.assetid: 879e0dcb-0485-4388-a10b-9a84e64c0055
 ms.service: guidance
@@ -19,10 +20,6 @@ ms.date: 11/23/2016
 ms.author: telmosampaio
 
 ---
-# Protecting the cloud boundary in Azure
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
-
 An on-premises network can be connected to a virtual network in Azure by using an Azure VPN gateway. The network boundary between these two environments can expose areas of weakness in terms of security, and it is necessary to protect this boundary to block unauthorized requests. Similar protection is required for applications running on VMs in Azure that are exposed to the public Internet.
 
 The patterns & practices group has created a set of reference architectures to address these scenarios. Each reference architecture demonstrates one approach to protecting the network boundary, and includes:

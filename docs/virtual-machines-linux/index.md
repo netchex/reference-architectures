@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchSeriesPage
+series_title: Virtual machines (Linux)
 
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance
@@ -18,10 +20,6 @@ ms.date: 10/31/2016
 ms.author: telmosampaio
 
 ---
-# Architectures for Linux VM workloads in Azure
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
-
 Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.
 
 The patterns & practices group has created a set of reference architectures to address these considerations. Each reference architecture includes:

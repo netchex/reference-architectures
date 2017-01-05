@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchSeriesPage
+series_title: Hybrid networking
 
 ms.assetid: e8585bb7-b430-4fac-86a9-da5d1bde39ea
 ms.service: guidance
