@@ -16,7 +16,7 @@
    id="svg8983"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="adds.svg">
+   sodipodi:docname="adds-extend-domain.svg">
   <defs
      id="defs8985">
     <marker
@@ -100,9 +100,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="119.73671"
-     inkscape:cy="4.9088145"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="-93.665595"
+     inkscape:cy="54.49352"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -326,23 +326,6 @@
        sodipodi:linespacing="125%">Azure VNet<v:paragraph />
 <v:tabList />
 </text>
-    <text
-       x="136.3364"
-       y="948.16791"
-       class="st13"
-       v:langID="1033"
-       id="text10277"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#389114;fill-opacity:1;"
-       sodipodi:linespacing="125%">
-      <v:paragraph />
-      <v:tabList />
-      <tspan
-         sodipodi:role="line"
-         id="tspan4281">Active Directory</tspan>
-      <tspan
-         sodipodi:role="line"
-         id="tspan4283">synchronization</tspan>
-    </text>
     <rect
        style="fill:#e4faff;stroke:#3a99c6;stroke-width:0.56498891;stroke-linecap:butt"
        id="rect11512"
@@ -627,5 +610,26 @@
        id="path8633"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       x="134.39178"
+       y="44.431984"
+       class="st13"
+       v:langID="1033"
+       id="text10277-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#389114;fill-opacity:1"
+       sodipodi:linespacing="125%">
+      <v:paragraph />
+      <v:tabList />
+      <tspan
+         sodipodi:role="line"
+         id="tspan4320"
+         x="134.39178"
+         y="44.431984">Active Directory</tspan>
+      <tspan
+         sodipodi:role="line"
+         id="tspan4322"
+         x="134.39178"
+         y="56.931984">synchronization</tspan>
+    </text>
   </g>
 </svg>
