@@ -8,7 +8,6 @@ manager: roshar
 editor: ''
 tags: ''
 layout: RefArchPage
-
 series_title: Using Azure App Service
 
 ms.assetid: 12c8df2b-5693-4795-966f-533b54849799
