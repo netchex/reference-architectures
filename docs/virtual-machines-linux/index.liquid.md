@@ -24,7 +24,7 @@ articles:
   - id: single-vm
     title: Single VM
     description: Baseline recommendations for running any Linux VM in Azure.
-  - id: multi-vm
+  - id: ../virtual-machines-windows/multi-vm
     title: Load-balanced VMs
     description: For higher availability, run multiple VMs behind a load balancer.
   - id: n-tier

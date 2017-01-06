@@ -39,3 +39,5 @@ In most enterprise systems based on Windows, you will use Active Directory (AD) 
 The patterns & practices group has created a set of reference architectures to address these scenarios.
 
 {% include 'series' %}
+
+[aad]: https://azure.microsoft.com/services/active-directory/
