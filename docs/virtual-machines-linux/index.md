@@ -45,12 +45,12 @@ The patterns & practices group has created a set of reference architectures to a
         </a>
     </li>
     <li>
-        <a href="./multi-vm.md">
+        <a href="./../virtual-machines-windows/multi-vm.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-vm.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/../virtual-machines-windows/multi-vm.svg');">
                             </div>
                         </div>
                         <div class="cardText">

@@ -18,7 +18,7 @@ ms.workload: na
 ms.date: 11/23/2016
 ms.author: telmosampaio
 
-series_title: Protecting the cloud boundary
+series_title: Protect the cloud boundary
 columns: 2
 articles:
   - id: secure-vnet-dmz

@@ -18,7 +18,7 @@ ms.workload: na
 ms.date: 10/26/2016
 ms.author: mwasson
 
-series_title: Connect your on-premises network to Azure
+series_title: Connect an on-premises network to Azure
 columns: 3
 articles:
   - id: expressroute

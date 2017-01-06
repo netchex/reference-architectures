@@ -20,7 +20,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/26/2016
 ms.author: mwasson
-series_title: Connect your on-premises network to Azure
+series_title: Connect an on-premises network to Azure
 columns: 3
 ---
 Many organizations wish to integrate an existing on-premises infrastructure with Azure. A key part of this scenario is to establish a secure and robust network connection between the on-premises network and Azure.
