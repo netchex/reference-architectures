@@ -7,6 +7,8 @@ author: MikeWasson
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchPage
+series_title: Run Windows VM workloads in Azure
 
 ms.assetid: 6fa4764e-4d97-4b96-ac25-8adf602baf27
 ms.service: guidance
