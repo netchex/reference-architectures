@@ -1,6 +1,8 @@
 ---
 title: Virtual Machines (Windows) | Reference Architectures | Azure | Microsoft Docs
-description: Explains some common architectures for deploying VMs that host enterprise-scale applications in Azure.
+description: >-
+  Explains some common architectures for deploying VMs that host
+  enterprise-scale applications in Azure.
 services: ''
 documentationcenter: na
 author: telmosampaio
@@ -8,8 +10,6 @@ manager: christb
 editor: ''
 tags: ''
 layout: RefArchSeriesPage
-series_title: Run Windows VM workloads in Azure
-
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance
 ms.devlang: na
@@ -18,12 +18,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2016
 ms.author: telmosampaio
-
+series_title: Run Windows VM workloads in Azure
+columns: 2
 ---
 Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.
 
 The patterns &amp; practices group has created a set of reference architectures to address these considerations.
-These reference architectures build on each other, starting from deploying a single VM, moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.</p>
+These reference architectures build on each other, starting from deploying a single VM, moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.
 
 <ul class="cardsD refArchPanel x2">
     <li>
@@ -81,12 +82,12 @@ These reference architectures build on each other, starting from deploying a sin
         </a>
     </li>
     <li>
-        <a href="multi-region-application.md">
+        <a href="./multi-region-application.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region-application.svg');">
                             </div>
                         </div>
                         <div class="cardText">

@@ -27,7 +27,7 @@ articles:
   - id: scalable-web-app
     title: Scalable web app
     description: Improves scalability by using Redis cache, CDN for static content, and WebJobs for long-running background tasks.
-  - id: mutli-region-web-app
+  - id: multi-region-web-app
     title: Multi-region web app
     description: Improves availability by running in multiple regions, using Traffic Manager to fail over if the primary region goes down.
 ---

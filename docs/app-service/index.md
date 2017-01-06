@@ -62,12 +62,12 @@ The patterns &amp; practices group has created a set of reference architectures 
         </a>
     </li>
     <li>
-        <a href="./mutli-region-web-app.md">
+        <a href="./multi-region-web-app.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/mutli-region-web-app.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region-web-app.svg');">
                             </div>
                         </div>
                         <div class="cardText">

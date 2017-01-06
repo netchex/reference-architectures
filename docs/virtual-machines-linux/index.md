@@ -1,6 +1,8 @@
 ---
 title: Architectures for running VM workloads in Azure | Microsoft Docs
-description: Explains some common architectures for deploying VMs that host enterprise-scale applications in Azure.
+description: >-
+  Explains some common architectures for deploying VMs that host
+  enterprise-scale applications in Azure.
 services: ''
 documentationcenter: na
 author: telmosampaio
@@ -8,8 +10,6 @@ manager: christb
 editor: ''
 tags: ''
 layout: RefArchSeriesPage
-series_title: Virtual machines (Linux)
-
 ms.assetid: 0afd8bba-ce0c-438e-be82-70064808a956
 ms.service: guidance
 ms.devlang: na
@@ -18,82 +18,84 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2016
 ms.author: telmosampaio
-
+series_title: Run Linux VM workloads in Azure
+columns: 2
 ---
 Running a virtual machine (VM) in Azure involves more moving parts than just the VM itself. Other considerations include networking, load balancers, network security groups (NSGs), and redundancy within a region or across multiple regions.
 
-The patterns & practices group has created a set of reference architectures to address these considerations. Each reference architecture includes:
+The patterns & practices group has created a set of reference architectures to address these considerations. 
 
-* Recommendations and best practices.
-* Considerations for availability, security, scalability, and manageability.
-* An Azure Resource Manager template that you can modify and deploy.
-
-The reference architectures in this series are designed to build on each other, starting from deploying a single VM, then moving to multiple VMs behind a load balancer, VMs running N-tier applications, and finally multi-region deployments.
-
-## Running a single VM
-This reference architecture contains a set of baseline recommendations for running any Linux VM in Azure. 
-
-A single VM is useful as a basic development or test environment, or for non-critical workloads, but is not recommended for hosting mission-critical systems or production applications. 
-
-> [!NOTE]
-> This architecture is the basis for the other architectures in this series. It is important to understand the concepts here, even if you are not deploying a single VM by itself.
-> 
-> 
-
-[![0]][0]](single-vm.md)
-
-
-Considerations:
-
-* Single VM instances do not qualify for a SLA guarantee and will face downtime during Azure planned maintenance events. Instead, it is recommended to put two or more VMs in an availability set. The next architecture demonstrates this approach.
-
-For detailed information, see [Running a Linux VM on Azure](single-vm.md).
-
-## Running multiple VMs behind a load balancer
-
-To improve availability and scalability, deploy several VMs in an availability set and use a load balancer to distribute traffic across them.  
-
-[![1]][1]](../virtual-machines-windows/multi-vm.md?toc=%2fazure%2farchitecture%24virtual-machines-linux%2f/toc.json)
-
-Benefits:
-
-* VMs in this configuration qualify for the SLA for Virtual Machines.
-* Provides improved availability and scalability.
-* This architecture is a building block for running N-tier applications on Azure, as shown in the next architecture.
-
-For detailed information, see [Running multiple VMs on Azure for scalability and availability](../virtual-machines-windows/multi-vm.md).
-
-## Running N-tier workloads
-This architecture shows best practices for running an N-tier application on VMs in Azure.
-
-The VMs for each tier are placed in separate availability sets.  Within a tier, load balancers distribute traffic across the VMs. At the data tier, a Cassandra database is replicated for higher availability.
-
-[![2]][2]](n-tier.md)
-
-For detailed information, see [Running Linux VMs for an N-tier architecture on Azure](n-tier.md). 
-
-## Running multi-region workloads
-An application deployed to a single region could become unavailable if an incident occurs within that region. For mission-critical applications, consider deploying to more than one region.
-
-This architecture show how to deploy a multi-region N-tier application in an active/passive configuration. During normal operation, Azure Traffic Manager routes traffic to the primary region. If the primary region becomes unavailable, Traffic Manager fails over to the secondary region.  
-
-[![3]][3]](multi-region-application.md)
-
-Benefits of deploying to multiple regions:
-
-* High availability.
-* Protection against regional outages.
-
-Considerations:
-
-* Increased complexity and cost.
-* Failover and failback may require some manual steps, such as failing over the database and checking database consistency.
-
-For detailed information  [Running Linux VMs in multiple regions for high availability](multi-region-application.md).
-
-
-<!-- Links -->
-[0]: ../media/compute/compute-single-vm.png "Single VM architecture in Azure"
-[1]: ../media/compute/compute-multi-vm.png "Multiple VM architecture in Azure"
-[2]: ../media/compute/compute-multi-tier.png "Multiple tier architecture in Azure"
-[3]: ../media/compute/compute-multi-region.png "Multiple region architecture in Azure"
+<ul class="cardsD refArchPanel x2">
+    <li>
+        <a href="./single-vm.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/single-vm.svg');">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Single VM</h3>
+                            <p>Baseline recommendations for running any Linux VM in Azure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="./multi-vm.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-vm.svg');">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Load-balanced VMs</h3>
+                            <p>For higher availability, run multiple VMs behind a load balancer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="./n-tier.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/n-tier.svg');">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>N-tier application</h3>
+                            <p>Within each tier, load balancers distribute traffic across multiple VMs. The database is replicated using SQL Server Always On Availability Groups.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="./multi-region-application.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/multi-region-application.svg');">
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Multi-region application</h3>
+                            <p>An application deployed to a single region could become unavailable if an incident occurs within that region. For mission-critical applications, consider deploying to more than one region.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>

@@ -1,15 +1,17 @@
 ---
-title: Connecting your on-premises network to Azure | Reference Architectures | Azure | Microsoft Docs
-description: Recommended architectures for secure, robust network connections between on-premises networks and Azure.
-services: app-service,app-service\web,sql-database
+title: >-
+  Connecting your on-premises network to Azure | Reference Architectures | Azure
+  | Microsoft Docs
+description: >-
+  Recommended architectures for secure, robust network connections between
+  on-premises networks and Azure.
+services: 'app-service,app-service\web,sql-database'
 documentationcenter: na
 author: MikeWasson
 manager: christb
 editor: ''
 tags: ''
 layout: RefArchSeriesPage
-series_title: Connect your on-premises network to Azure
-
 ms.assetid: c7022bbb-b2fd-43f4-a557-6b511b79dd10
 ms.service: guidance
 ms.devlang: na
@@ -18,13 +20,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/26/2016
 ms.author: mwasson
-
+series_title: Connect your on-premises network to Azure
+columns: 3
 ---
 Many organizations wish to integrate an existing on-premises infrastructure with Azure. A key part of this scenario is to establish a secure and robust network connection between the on-premises network and Azure.
 
 The patterns &amp; practices group has created a set of reference architectures to address these scenarios.
 
-<ul class="cardsD refArchPanel">
+<ul class="cardsD refArchPanel x3">
     <li>
         <a href="./expressroute.md">
             <div class="cardSize">
@@ -54,7 +57,7 @@ The patterns &amp; practices group has created a set of reference architectures 
                         </div>
                         <div class="cardText">
                             <h3>Site-to-site VPN</h3>
-                            <p>Azure VPN Gateway to create a virtual private network (VPN) connection</p>
+                            <p>Azure VPN Gateway to create a virtual private network (VPN) connection.</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +70,7 @@ The patterns &amp; practices group has created a set of reference architectures 
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/expressroute-vpn.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/expressroute-vpn-failover.svg');">
                             </div>
                         </div>
                         <div class="cardText">
