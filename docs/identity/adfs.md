@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Extend on-premises identity to Azure
 
 ms.assetid: 18525321-1926-4447-9db2-cadbdd4c1ab9
 ms.service: guidance
@@ -18,9 +20,7 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Implementing Active Directory Federation Services (AD FS) in Azure 
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Active Directory Federation Services (AD FS) 
 
 This article describes how to implement a secure hybrid network that extends your on-premises network to Azure and uses [Active Directory Federation Services (AD FS)][active-directory-federation-services] to perform federated authentication and authorization for components running in Azure. This architecture extends the implementation described in [Extending Active Directory to Azure][extending-ad-to-azure].
 

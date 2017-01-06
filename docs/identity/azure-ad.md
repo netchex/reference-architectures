@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Extend on-premises identity to Azure
 
 ms.assetid: f42fa2c2-2dea-46a2-a916-6dd60082a8da
 ms.service: guidance
@@ -18,7 +20,8 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Integrating on-premises Active Directory domains with Azure Active Directory
+# Integrate on-premises Active Directory domains with Azure Active Directory
+
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 Azure Active Directory (Azure AD) is a cloud based multi-tenant directory and identity service. This article describes best practices for integrating on-premises Active Directory domains and forests with Azure AD to provide cloud-based identity authentication.

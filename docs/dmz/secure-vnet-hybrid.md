@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Protect the cloud boundary
 
 ms.assetid: 4a299a51-5925-4875-9164-c89a82dff035
 ms.service: guidance
@@ -18,8 +20,7 @@ ms.date: 11/23/2016
 ms.author: telmos
 
 ---
-# Implementing a DMZ between Azure and your on-premises datacenter
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Between Azure and your on-premises datacenter
 
 This article describes best practices for implementing a secure hybrid network that extends an on-premises network to Azure. This reference architecture implements a DMZ (also called a perimeter network) between an on-premises network and an Azure virtual network. The DMZ includes highly available network virtual appliances (NVAs) that implement security functionality such as firewalls and packet inspection. All outgoing traffic from the VNet is force-tunneled to the Internet through the on-premises network, so that it can be audited.
 

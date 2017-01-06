@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Protect the cloud boundary
 
 ms.assetid: 6fbc8d25-815d-4e98-9ade-d423ddf19dc9
 ms.service: guidance
@@ -18,9 +20,7 @@ ms.date: 11/23/2016
 ms.author: telmos
 
 ---
-# Implementing a DMZ between Azure and the Internet
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Between Azure and the Internet
 
 This article describes best practices for implementing a secure hybrid network that extends your on-premises network and also accepts Internet traffic to Azure. 
 

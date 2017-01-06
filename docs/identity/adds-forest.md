@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Extend on-premises identity to Azure
 
 ms.assetid: 67d86788-c22d-4394-beaf-b4acdf4e2e56
 ms.service: guidance
@@ -18,9 +20,7 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Creating an Active Directory Domain Services (AD DS) resource forest in Azure
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Create an Active Directory Domain Services (AD DS) resource forest in Azure
 
 This article describes how to create an Active Directory domain in Azure that is separate from, but trusted by, domains in your on-premises forest.
 

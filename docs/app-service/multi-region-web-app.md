@@ -7,6 +7,8 @@ author: MikeWasson
 manager: roshar
 editor: ''
 tags: ''
+layout: RefArchPage
+series_title: Build web applications with Azure App Service
 
 ms.assetid: 7b7e3cd7-ecc6-4ca4-a4e9-468b0fa8ad9e
 ms.service: guidance
@@ -18,8 +20,7 @@ ms.date: 11/23/2016
 ms.author: mwasson
 
 ---
-# Running a web application with high availability in Azure
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Improving availability
 
 This article shows a recommended architecture for running a web application in multiple regions, to achieve high availability. The architecture builds on [Improving scalability in a web application][guidance-web-apps-scalability].
 

@@ -7,6 +7,8 @@ author: MikeWasson
 manager: roshar
 editor: ''
 tags: ''
+layout: RefArchPage
+series_title: Build web applications with Azure App Service
 
 ms.assetid: 15459a5a-78e3-45ab-966c-dfc786214d1c
 ms.service: guidance
@@ -18,8 +20,7 @@ ms.date: 11/23/2016
 ms.author: mwasson
 
 ---
-# Improving scalability in a web application on Azure
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Improving scalability
 
 This article shows a recommended architecture for improving scalability and performance in a web application running on Microsoft Azure. The architecture builds on [Basic web application architecture in Azure][basic-web-app]. The recommendations and considerations from that article apply to this architecture as well. 
 

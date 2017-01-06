@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchPage
+series_title: Connect an on-premises network to Azure
 
 ms.assetid: 3ae3311f-04e8-4f7e-bdad-2d995dcccd6c
 ms.service: guidance
@@ -18,7 +20,7 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Implementing a hybrid network architecture with Azure ExpressRoute
+# Using Azure ExpressRoute
 
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 

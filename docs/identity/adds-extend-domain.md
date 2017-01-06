@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Extend on-premises identity to Azure
 
 ms.assetid: 4821d1de-1473-4748-a599-ada73323fdb2
 ms.service: guidance
@@ -18,9 +20,7 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Extending Active Directory Domain Services (AD DS) to Azure
-
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Active Directory Domain Services (AD DS)
 
 This article describes best practices for extending your Active Directory environment to Azure to provide distributed authentication services using [Active Directory Domain Services (AD DS)][active-directory-domain-services]. This architecture extends the architectures described in  [Implementing a secure hybrid network architecture in Azure][implementing-a-secure-hybrid-network-architecture] and [Implementing a secure hybrid network architecture with Internet access in Azure][implementing-a-secure-hybrid-network-architecture-with-internet-access].
 

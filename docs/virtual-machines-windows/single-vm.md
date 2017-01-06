@@ -20,8 +20,7 @@ ms.date: 11/22/2016
 ms.author: mwasson
 
 ---
-# Running a Windows VM on Azure
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Single VM
 
 > [!div class="op_single_selector"]
 > * [Running a Linux VM on Azure](../virtual-machines-linux/single-vm.md)

@@ -20,7 +20,7 @@ ms.date: 11/22/2016
 ms.author: mwasson
 
 ---
-# Running Windows VMs for an N-tier application on Azure
+# N-tier application
 
 This reference architecture shows a set of proven practices for running Windows virtual machines (VMs) for an N-tier application architecture.
 

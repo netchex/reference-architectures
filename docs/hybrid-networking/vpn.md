@@ -7,6 +7,8 @@ author: RohitSharma-pnp
 manager: christb
 editor: ''
 tags: ''
+layout: RefArchPage
+series_title: Connect an on-premises network to Azure
 
 ms.assetid: b6e3c36b-c9c1-4427-9b85-7b9f7f69141e
 ms.service: guidance
@@ -18,7 +20,7 @@ ms.date: 11/28/2016
 ms.author: roshar
 
 ---
-# Implementing a hybrid network architecture with Azure and on-premises VPN
+# Using VPN
 [!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article outlines a set of practices for extending an on-premises network onto Azure using a site-to-site virtual private network (VPN). The traffic flows between the on-premises network and an Azure Virtual Network (VNet) through an IPSec VPN tunnel. 

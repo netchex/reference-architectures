@@ -20,8 +20,7 @@ ms.date: 11/22/2016
 ms.author: mwasson
 
 ---
-# Running multiple VMs on Azure for scalability and availability
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# Multiple VMs for scalability and availability
 
 This article outlines a set of proven practices for running multiple virtual machine (VM) instances behind a load balancer, to improve availability and scalability.   
 

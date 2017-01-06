@@ -18,7 +18,7 @@ ms.workload: na
 ms.date: 10/26/2016
 ms.author: mwasson
 
-series_title: Using Azure App Service
+series_title: Build web applications with Azure App Service
 columns: 3
 articles:
   - id: basic-web-app

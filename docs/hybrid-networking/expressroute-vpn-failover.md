@@ -7,6 +7,8 @@ author: telmosampaio
 manager: christb
 editor: ''
 tags: azure-resource-manager
+layout: RefArchPage
+series_title: Connect an on-premises network to Azure
 
 ms.assetid: c0a6f115-ec55-4f98-8cca-606d5a98a3cd
 ms.service: guidance
@@ -18,8 +20,7 @@ ms.date: 11/28/2016
 ms.author: telmos
 
 ---
-# Implementing a highly available hybrid network architecture
-[!INCLUDE [pnp-branding](../_includes/header.md)]
+# With high available
 
 This article describes how to connect an on-premises network to an Azure virtual network (VNet) using ExpressRoute, with a site-to-site virtual private network (VPN) as a failover connection. 
 
