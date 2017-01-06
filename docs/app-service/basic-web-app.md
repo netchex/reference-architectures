@@ -9,6 +9,8 @@ editor: ''
 tags: ''
 layout: RefArchPage
 
+series_title: Using Azure App Service
+
 ms.assetid: 12c8df2b-5693-4795-966f-533b54849799
 ms.service: guidance
 ms.devlang: na
@@ -20,7 +22,6 @@ ms.author: mwasson
 
 ---
 # Basic web application architecture in Azure
-[!INCLUDE [pnp-branding](../_includes/header.md)]
 
 This article shows a recommended architecture for a basic web application in Microsoft Azure.
 The architecture implements a web front end using [Azure App Service][app-service] with [Azure SQL Database][sql-db] as a database. Other articles in this series build on this basic architecture, and add components such as cache and content delivery network (CDN).
