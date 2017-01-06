@@ -21,22 +21,22 @@ ms.author: christb
 series_title: 
 columns: 3
 articles:
-  - id: app-service
+  - id: app-service/index
     title: Using Azure App Service
     description: Lorem ipsum
-  - id: virutal-machines-linux
+  - id: virtual-machines-linux/index
     title: Run Linux VM workloads
     description: Lorem ipsum
-  - id: virutal-machines-windows
+  - id: virtual-machines-windows/index
     title: Run Windows VM workloads
     description: Lorem ipsum
-  - id: identity
+  - id: identity/index
     title: Manage identity in Azure
     description: Lorem ipsum
-  - id: dmz
+  - id: dmz/index
     title: Protect the cloud boundary
     description: Lorem ipsum
-  - id: hybrid-networking
+  - id: hybrid-networking/index
     title: Connect on-premises network to Azure
     description: Lorem ipsum
 ---

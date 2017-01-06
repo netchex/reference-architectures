@@ -28,12 +28,12 @@ Many of the architectures are progressive; building on top of preceding architec
 
 <ul class="cardsD refArchPanel x3">
     <li>
-        <a href="./app-service.md">
+        <a href="./app-service/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/app-service.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/app-service/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
@@ -46,12 +46,12 @@ Many of the architectures are progressive; building on top of preceding architec
         </a>
     </li>
     <li>
-        <a href="./virutal-machines-linux.md">
+        <a href="./virtual-machines-linux/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/virutal-machines-linux.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/virtual-machines-linux/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
@@ -64,12 +64,12 @@ Many of the architectures are progressive; building on top of preceding architec
         </a>
     </li>
     <li>
-        <a href="./virutal-machines-windows.md">
+        <a href="./virtual-machines-windows/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/virutal-machines-windows.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/virtual-machines-windows/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
@@ -82,12 +82,12 @@ Many of the architectures are progressive; building on top of preceding architec
         </a>
     </li>
     <li>
-        <a href="./identity.md">
+        <a href="./identity/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/identity.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/identity/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
@@ -100,12 +100,12 @@ Many of the architectures are progressive; building on top of preceding architec
         </a>
     </li>
     <li>
-        <a href="./dmz.md">
+        <a href="./dmz/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/dmz.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/dmz/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
@@ -118,12 +118,12 @@ Many of the architectures are progressive; building on top of preceding architec
         </a>
     </li>
     <li>
-        <a href="./hybrid-networking.md">
+        <a href="./hybrid-networking/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
                         <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/hybrid-networking.svg');">
+                            <div class="cardImage bgdAccent1 cardScaleImage" style="background-image: url('./images/hybrid-networking/index.svg');">
                             </div>
                         </div>
                         <div class="cardText">
